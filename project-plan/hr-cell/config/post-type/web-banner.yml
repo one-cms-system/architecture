@@ -1,0 +1,28 @@
+name: web-banner
+schema:
+  activationTime:
+    type: date
+    filtering: RANGE
+    uiParams:
+      component: date-picker
+      order: 1
+  finishTime:
+    type: date
+    filtering: RANGE
+    uiParams:
+      component: date-picker
+      order: 1
+  image:
+    type: file
+    allowedTypes: [ "gif", "jpeg", "jpg", "png" ]
+    uiParams:
+      component: image-upload
+      order: 2
+  link:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 2
+uiParams:
+  component: post-table
