@@ -1,0 +1,21 @@
+name: faq
+schema:
+  enabled:
+    type: boolean
+    uiParams:
+      component: checkbox
+      order: 2
+  question:
+    type: string
+    uiParams:
+      component: input
+      inputType: editor
+      order: 1
+  answer:
+    type: string
+    uiParams:
+      component: input
+      inputType: editor
+      order: 1
+uiParams:
+  component: post-table

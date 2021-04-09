@@ -1,0 +1,26 @@
+name: company-view
+schema:
+  title:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+  isMultilingual:
+    type: boolean
+    uiParams:
+      component: checkbox
+      order: 2
+  preview-image:
+    type: image
+    allowedTypes: [ "jpg", "jpeg", "png" ]
+    uiParams:
+      component: image-upload
+      order: 2
+  youtube-link:
+    type: string
+    uiParams:
+      component: input
+      order: 3
+uiParams:
+  component: post-table

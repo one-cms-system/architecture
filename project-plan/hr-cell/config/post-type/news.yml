@@ -1,0 +1,61 @@
+name: news
+schema:
+  title:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+  isMultilingual:
+    type: boolean
+    uiParams:
+      component: checkbox
+      order: 2
+  desctiption:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 2
+  date:
+    type: date
+    uiParams:
+      component: date-picker
+      order: 2
+  content:
+    type: string
+    uiParams:
+      component: editor
+      order: 1
+  url:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+  metaDescription:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+  keyword:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+  main-image:
+    type: image
+    allowedTypes: [ "jpg", "jpeg", "png" ]
+    uiParams:
+      component: image-upload
+      order: 2
+  bulk-image:
+    type: images
+    allowedTypes: [ "jpg", "jpeg", "png" ]
+    uiParams:
+      component: image-bulk-upload
+      order: 2
+uiParams:
+  component: post-table
