@@ -1,16 +1,12 @@
 name: company-view
 schema:
   title:
+    isMultilingual: true
     type: string
     uiParams:
       component: input
       inputType: text
       order: 1
-  isMultilingual:
-    type: boolean
-    uiParams:
-      component: checkbox
-      order: 2
   preview-image:
     type: image
     allowedTypes: [ "jpg", "jpeg", "png" ]

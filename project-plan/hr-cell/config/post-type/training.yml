@@ -2,6 +2,7 @@ name: training
 schema:
   title:
     type: string
+    isMultilingual: true
     uiParams:
       component: input
       inputType: text
