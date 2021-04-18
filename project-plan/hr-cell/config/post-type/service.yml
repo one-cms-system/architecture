@@ -2,28 +2,36 @@ name: service
 schema:
   title:
     type: string
+    multilingual: true
     uiParams:
       component: input
       inputType: text
       order: 1
+      showOnGrid: true
   slug:
     type: string
+    multilingual: true
     uiParams:
       component: slug
       autoGenerateFrom: title
       order: 2
   content:
     type: string
+    multilingual: true
     uiParams:
       component: editor
       order: 3
   desctription:
     type: string
+    multilingual: true
     uiParams:
       component: text-area
   keywords:
     type: string
+    multilingual: true
     uiParams:
       component: text-area
 uiParams:
   component: post-table
+  ordering: true
+  nameField: title
