@@ -1,7 +1,7 @@
 name: company-view
 schema:
   title:
-    isMultilingual: true
+    multilingual: true
     type: string
     uiParams:
       component: input

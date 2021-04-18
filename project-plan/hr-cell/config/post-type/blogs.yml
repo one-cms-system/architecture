@@ -4,7 +4,7 @@ schema:
     type: string
     uiParams:
       required: false
-      isMultilingual: false
+      multilingual: false
       component: input
       inputType: text
       order: 1
@@ -19,13 +19,13 @@ schema:
     type: string
     uiParams:
       required: false
-      isMultilingual: false
+      multilingual: false
       component: input
       inputType: text
       order: 2
   content:
     required: false
-    isMultilingual: false
+    multilingual: false
     type: string
     uiParams:
       component: editor
