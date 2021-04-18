@@ -1,0 +1,59 @@
+name: news
+schema:
+  title:
+    type: string
+    uiParams:
+      required: false
+      isMultilingual: false
+      component: input
+      inputType: text
+      order: 1
+  date:
+    required: false
+    type: date
+    filtering: RANGE
+    uiParams:
+      component: date-picker
+      order: 1
+  desctiption:
+    type: string
+    uiParams:
+      required: false
+      isMultilingual: false
+      component: input
+      inputType: text
+      order: 2
+  content:
+    required: false
+    isMultilingual: false
+    type: string
+    uiParams:
+      component: editor
+      order: 1
+  url:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      autoGenerateFrom: title
+      order: 1
+  metaDescription:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+  keyword:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+  main-image:
+    type: image
+    allowedTypes: [ "jpg", "jpeg", "png" ]
+    uiParams:
+      component: image-upload
+      order: 2
+uiParams:
+  component: post-table

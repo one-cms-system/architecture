@@ -1,13 +1,11 @@
-name: training
+name: anouncement
 schema:
   title:
     type: string
-    isMultilingual: true
     uiParams:
       component: input
       inputType: text
       order: 1
-      showOnGrid: true
   enabled:
     type: boolean
     uiParams:
@@ -43,24 +41,16 @@ schema:
       component: editor
       order: 3
   price:
-    type: number
+    type: date
     filtering: RANGE
     uiParams:
-      component: input
-      inputType: number
+      component: date-picker
       order: 1
-      showOnGrid: true
-  image:
-    type: file
-    allowedTypes: [ "pdf", "doc", "docx", "ppt" ]
-    uiParams:
-      component: image
-      order: 2
   file:
     type: file
     allowedTypes: [ "pdf", "doc", "docx", "ppt" ]
     uiParams:
-      component: file
+      component: image-upload
       order: 2
 uiParams:
   component: post-table

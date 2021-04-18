@@ -4,23 +4,27 @@ schema:
     type: date
     filtering: RANGE
     uiParams:
+      required: false
       component: date-picker
       order: 1
   finishTime:
     type: date
     filtering: RANGE
     uiParams:
+      required: false
       component: date-picker
       order: 1
   image:
     type: file
     allowedTypes: [ "gif", "jpeg", "jpg", "png" ]
     uiParams:
+      required: false
       component: image-upload
       order: 2
   link:
     type: string
     uiParams:
+      required: false
       component: input
       inputType: text
       order: 2

@@ -1,0 +1,33 @@
+name: news
+schema:
+  title:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+  isMultilingual:
+    type: boolean
+    uiParams:
+      component: checkbox
+      order: 2
+  preview-logo:
+    type: image
+    allowedTypes: [ "jpg", "jpeg", "png" ]
+    uiParams:
+      component: image-upload
+      order: 2
+  original-logo:
+    type: archive
+    allowedTypes: [ "zip" ]
+    uiParams:
+      component: file-upload
+      order: 2
+  logo-rules:
+    type: pdf
+    allowedTypes: [ "pdf" ]
+    uiParams:
+      component: file-upload
+      order: 2
+uiParams:
+  component: post-table
