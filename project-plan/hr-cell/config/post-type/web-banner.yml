@@ -19,7 +19,7 @@ schema:
     allowedTypes: [ "gif", "jpeg", "jpg", "png" ]
     uiParams:
       required: false
-      component: image-upload
+      component: image
       order: 2
   link:
     type: string

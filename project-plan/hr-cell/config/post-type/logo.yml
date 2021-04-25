@@ -11,7 +11,7 @@ schema:
     type: image
     allowedTypes: [ "jpg", "jpeg", "png" ]
     uiParams:
-      component: image-upload
+      component: image
       order: 2
   original-logo:
     multilingual: true

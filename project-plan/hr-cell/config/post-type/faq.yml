@@ -8,14 +8,12 @@ schema:
   question:
     type: string
     uiParams:
-      component: input
-      inputType: editor
+      component: editor
       order: 1
   answer:
     type: string
     uiParams:
-      component: input
-      inputType: editor
+      component: editor
       order: 1
 uiParams:
   component: post-table

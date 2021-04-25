@@ -49,7 +49,7 @@ schema:
     type: file
     allowedTypes: [ "pdf", "doc", "docx", "ppt" ]
     uiParams:
-      component: image-upload
+      component: image
       order: 2
 uiParams:
   component: post-table
