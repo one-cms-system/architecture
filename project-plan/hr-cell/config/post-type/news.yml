@@ -6,7 +6,7 @@ schema:
       component: input
       inputType: text
       order: 1
-  isMultilingual:
+  multilingual:
     type: boolean
     uiParams:
       component: checkbox
