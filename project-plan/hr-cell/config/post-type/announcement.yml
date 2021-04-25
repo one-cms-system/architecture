@@ -41,10 +41,9 @@ schema:
       component: editor
       order: 3
   price:
-    type: date
-    filtering: RANGE
+    type: string
     uiParams:
-      component: date-picker
+      component: input
       order: 1
   file:
     type: file

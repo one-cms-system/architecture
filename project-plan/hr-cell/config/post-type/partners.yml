@@ -1,11 +1,5 @@
 name: partners
 schema:
-  title:
-    type: string
-    uiParams:
-      component: input
-      inputType: text
-      order: 1
   enabled:
     type: boolean
     uiParams:
@@ -17,23 +11,17 @@ schema:
       component: input
       inputType: text
       order: 1
-  surname:
-    type: string
-    uiParams:
-      component: input
-      inputType: text
-      order: 1
-  position:
-    type: string
-    uiParams:
-      component: input
-      inputType: text
-      order: 1
-  profile-image:
+  preview-logo:
     type: image
     allowedTypes: [ "jpg", "jpeg", "png" ]
     uiParams:
       component: image-upload
       order: 2
+  url-for-image:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
 uiParams:
   component: post-table

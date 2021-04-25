@@ -33,7 +33,7 @@ schema:
       component: input
       inputType: text
       order: 1
-  metaDescription:
+  meta-description:
     type: string
     uiParams:
       component: input

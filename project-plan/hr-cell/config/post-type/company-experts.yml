@@ -1,23 +1,19 @@
-name: training
+name: company-experts
 schema:
-  title:
-    type: string
-    uiParams:
-      component: input
-      inputType: text
-      order: 1
   enabled:
     type: boolean
     uiParams:
       component: checkbox
       order: 2
   name:
+    multilingual: true
     type: string
     uiParams:
       component: input
       inputType: text
       order: 1
   surname:
+    multilingual: true
     type: string
     uiParams:
       component: input
