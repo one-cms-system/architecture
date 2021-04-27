@@ -2,20 +2,22 @@ name: page
 schema:
   title:
     type: string
+    multilingual: true
     uiParams:
+      showOnGrid: true
       required: false
-      multilingual: false
       component: input
       inputType: text
       order: 1
   content:
+  multilingual: true
     required: false
-    multilingual: false
     type: string
     uiParams:
       component: editor
       order: 1
   url:
+    multilingual: true
     type: string
     uiParams:
       component: input
