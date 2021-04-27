@@ -2,16 +2,14 @@ name: news
 schema:
   title:
     type: string
+    multilingual: true
+    required: true
     uiParams:
       component: input
       inputType: text
       order: 1
-  multilingual:
-    type: boolean
-    uiParams:
-      component: checkbox
-      order: 2
   desctiption:
+    multilingual: true
     type: string
     uiParams:
       component: input
@@ -23,6 +21,7 @@ schema:
       component: date-picker
       order: 2
   content:
+    multilingual: true
     type: string
     uiParams:
       component: editor
@@ -46,16 +45,20 @@ schema:
       inputType: text
       order: 1
   main-image:
-    type: image
+    type: file
     allowedTypes: [ "jpg", "jpeg", "png" ]
     uiParams:
-      component: image-upload
-      order: 2
+      required: false
+      multiple: false
+      component: file
+      type: image
   bulk-image:
-    type: images
+    type: file
     allowedTypes: [ "jpg", "jpeg", "png" ]
     uiParams:
-      component: image-bulk-upload
-      order: 2
+      required: false
+      multiple: true
+      component: file
+      type: image
 uiParams:
   component: post-table
