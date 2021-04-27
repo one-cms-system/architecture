@@ -4,6 +4,7 @@ schema:
     multilingual: true
     type: string
     uiParams:
+      showOnGrid: true
       component: editor
       order: 1
   answer:

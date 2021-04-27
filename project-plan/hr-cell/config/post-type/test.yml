@@ -1,0 +1,39 @@
+name: test
+schema:
+  field1:
+    type: boolean
+    uiParams:
+      required: false
+      component: checkbox
+  field2:
+    type: boolean
+    uiParams:
+      required: false
+      component: checkbox
+  field3:
+    type: boolean
+    uiParams:
+      required: false
+      component: checkbox
+  field4:
+    type: boolean
+    uiParams:
+      required: true
+      component: input
+      type: text
+  deleted:
+    type: boolean
+    uiParams:
+      required: false
+      component: checkbox
+  hidden:
+    type: boolean
+    uiParams:
+      required: false
+      component: checkbox
+uiParams:
+  component: advertise-layout
+  ordering: true
+  nameField: title
+  validationEval: "post.data.field1 | post.data.field2 | post.data.field3"
+  validationEvalMessage: "field1 or field2 or field3 must be specified"

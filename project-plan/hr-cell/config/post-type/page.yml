@@ -1,0 +1,38 @@
+name: page
+schema:
+  title:
+    type: string
+    uiParams:
+      required: false
+      multilingual: false
+      component: input
+      inputType: text
+      order: 1
+  content:
+    required: false
+    multilingual: false
+    type: string
+    uiParams:
+      component: editor
+      order: 1
+  url:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      autoGenerateFrom: title
+      order: 1
+  metaDescription:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+  keyword:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+uiParams:
+  component: post-table
