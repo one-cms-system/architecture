@@ -1,16 +1,13 @@
 name: faq
 schema:
-  enabled:
-    type: boolean
-    uiParams:
-      component: checkbox
-      order: 2
   question:
+    multilingual: true
     type: string
     uiParams:
       component: editor
       order: 1
   answer:
+    multilingual: true
     type: string
     uiParams:
       component: editor

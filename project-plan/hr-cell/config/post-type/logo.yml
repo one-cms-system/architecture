@@ -8,24 +8,30 @@ schema:
       order: 1
   preview-logo:
     multilingual: true
-    type: image
+    type: file
     allowedTypes: [ "jpg", "jpeg", "png" ]
     uiParams:
-      component: image
-      order: 2
+      required: true
+      multiple: false
+      component: file
+      type: image
   original-logo:
     multilingual: true
-    type: archive
+    type: file
     allowedTypes: [ "zip" ]
     uiParams:
-      component: file-upload
-      order: 2
-  logo-rules:
+      required: true
+      multiple: false
+      component: file
+      type: raw
+  rules:
     multilingual: true
-    type: pdf
+    type: file
     allowedTypes: [ "pdf" ]
     uiParams:
-      component: file-upload
-      order: 2
+      required: true
+      multiple: false
+      component: file
+      type: raw
 uiParams:
   component: post-table

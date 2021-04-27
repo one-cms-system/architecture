@@ -1,10 +1,5 @@
 name: partners
 schema:
-  enabled:
-    type: boolean
-    uiParams:
-      component: checkbox
-      order: 2
   name:
     type: string
     uiParams:
@@ -12,11 +7,13 @@ schema:
       inputType: text
       order: 1
   preview-logo:
-    type: image
+    type: file
     allowedTypes: [ "jpg", "jpeg", "png" ]
     uiParams:
-      component: image-upload
-      order: 2
+      required: false
+      multiple: false
+      component: file
+      type: image
   url-for-image:
     type: string
     uiParams:

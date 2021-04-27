@@ -1,18 +1,23 @@
 name: company-experts
 schema:
-  enabled:
-    type: boolean
-    uiParams:
-      component: checkbox
-      order: 2
   name:
     multilingual: true
+    required: true
     type: string
     uiParams:
       component: input
       inputType: text
       order: 1
   surname:
+    required: true
+    multilingual: true
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+  postion:
+    required: true
     multilingual: true
     type: string
     uiParams:
@@ -23,7 +28,10 @@ schema:
     type: image
     allowedTypes: [ "jpg", "jpeg", "png" ]
     uiParams:
-      component: image
+      required: false
+      multiple: false
+      component: file
+      type: image
       order: 2
 uiParams:
   component: post-table

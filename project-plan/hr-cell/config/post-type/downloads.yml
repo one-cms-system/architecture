@@ -1,27 +1,27 @@
-name: vlogs
+name: downloads
 schema:
   title:
+    multilingual: true
     type: string
     uiParams:
-      required: false
-      multilingual: false
       component: input
       inputType: text
       order: 1
-  youtube-link:
-    type: string
+  download-categories:
+    type: reference
     uiParams:
       required: false
-      component: input
-      inputType: text
-      order: 1
-  preview-image:
-    type: image
+      component: reference
+      postType: download-categories
+      referenceTitleField: title
+  file:
+    type: file
     allowedTypes: [ "jpg", "jpeg", "png" ]
     uiParams:
+      component: file
       required: false
       multiple: false
-      component: file
-      type: image
+      type: raw
+      order: 2
 uiParams:
   component: post-table

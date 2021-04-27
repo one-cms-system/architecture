@@ -1,0 +1,11 @@
+name: download-categories
+schema:
+  title:
+    multilingual: true
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+uiParams:
+  component: post-table
