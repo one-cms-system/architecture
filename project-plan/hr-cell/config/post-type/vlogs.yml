@@ -12,15 +12,16 @@ schema:
     type: string
     uiParams:
       required: false
-      multilingual: true
       component: input
       inputType: text
       order: 1
-  main-image:
+  preview-image:
     type: image
     allowedTypes: [ "jpg", "jpeg", "png" ]
     uiParams:
-      component: image-upload
-      order: 2
+      required: false
+      multiple: false
+      component: file
+      type: image
 uiParams:
   component: post-table
