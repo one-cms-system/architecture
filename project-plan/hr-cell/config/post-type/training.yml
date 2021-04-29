@@ -32,12 +32,14 @@ schema:
       component: date-picker
       order: 1
   duration:
-    type: date
-    filtering: RANGE
+    type: number
     uiParams:
-      component: date-picker
+      component: input
+      inputType: number
       order: 1
+      showOnGrid: true
   content:
+    multilingual: true
     type: string
     uiParams:
       component: editor
@@ -54,13 +56,17 @@ schema:
     type: file
     allowedTypes: [ "pdf", "doc", "docx", "ppt" ]
     uiParams:
-      component: image
-      order: 2
+      required: false
+      multiple: false
+      component: file
+      type: image
   file:
     type: file
     allowedTypes: [ "pdf", "doc", "docx", "ppt" ]
     uiParams:
+      required: false
+      multiple: false
       component: file
-      order: 2
+      type: raw
 uiParams:
   component: post-table
