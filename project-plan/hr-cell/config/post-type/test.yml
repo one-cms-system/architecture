@@ -31,6 +31,57 @@ schema:
     uiParams:
       required: false
       component: checkbox
+  service:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: service
+      referenceTitleField: title
+  file:
+    type: file
+    uiParams:
+      required: false
+      multiple: false
+      component: file
+      type: raw
+  multiFile:
+    type: file
+    uiParams:
+      required: false
+      multiple: true
+      component: file
+      type: raw
+  image:
+    type: file
+    uiParams:
+      required: false
+      multiple: false
+      component: file
+      type: image
+  multiImage:
+    type: file
+    uiParams:
+      required: false
+      multiple: true
+      component: file
+      type: image
+  gallery:
+    type: gallery
+    uiParams:
+      required: false
+      component: gallery
+  links:
+    type: array
+    uiParams:
+      required: false
+      component: list
+      innerType:
+        type: string
+        uiParams:
+          required: false
+          component: input
+          inputType: text
 uiParams:
   component: advertise-layout
   ordering: true

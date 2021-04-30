@@ -10,7 +10,7 @@ schema:
       inputType: text
       order: 1
   content:
-  multilingual: true
+    multilingual: true
     required: false
     type: string
     uiParams:
@@ -20,8 +20,7 @@ schema:
     multilingual: true
     type: string
     uiParams:
-      component: input
-      inputType: text
+      component: slug
       autoGenerateFrom: title
       order: 1
   metaDescription:

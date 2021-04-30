@@ -11,7 +11,7 @@ schema:
     uiParams:
       component: checkbox
       order: 2
-  slug:
+  url:
     type: string
     uiParams:
       component: slug
