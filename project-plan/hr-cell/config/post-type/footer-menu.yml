@@ -8,5 +8,8 @@ schema:
       order: 3
   key:
     type: string
+    uiParams:
+      component: editor
+      order: 3
 uiParams:
   component: post-table
