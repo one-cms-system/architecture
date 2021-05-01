@@ -52,4 +52,4 @@ schema:
       component: image
       order: 2
 uiParams:
-  component: post-table
+  component: advertise-layout
