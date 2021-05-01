@@ -17,7 +17,6 @@ schema:
       component: editor
       order: 1
   url:
-    multilingual: true
     type: string
     uiParams:
       component: slug
