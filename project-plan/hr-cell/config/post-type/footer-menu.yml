@@ -14,12 +14,12 @@ schema:
       component: input
       inputType: text
       order: 1
-      showOnGrid: true
   url:
     type: string
     uiParams:
       component: input
       inputType: text
       order: 1
+      showOnGrid: true
 uiParams:
   component: post-table
