@@ -1,4 +1,4 @@
-name: post-type
+name: footer-menu
 schema:
   name:
     multilingual: true

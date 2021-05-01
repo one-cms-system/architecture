@@ -1,0 +1,12 @@
+name: footer-menu
+schema:
+  name:
+    multilingual: true
+    type: string
+    uiParams:
+      component: editor
+      order: 3
+  key:
+    type: string
+uiParams:
+  component: post-table
