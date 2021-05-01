@@ -1,55 +1,71 @@
 name: anouncement
 schema:
-  title:
-    type: string
+  vacancy:
+    type: reference
     uiParams:
-      component: input
-      inputType: text
-      order: 1
-  enabled:
-    type: boolean
+      required: false
+      component: reference
+      postType: vacancy-anouncement
+      referenceTitleField: title
+      showOnGrid: true
+  company:
+    type: reference
     uiParams:
-      component: checkbox
-      order: 2
-  slug:
-    type: string
+      required: false
+      component: reference
+      postType: company-anouncement
+      referenceTitleField: title
+      showOnGrid: true
+  category:
+    type: reference
     uiParams:
-      component: slug
-      autoGenerateFrom: title
-      order: 2
-  activationTime:
+      required: false
+      component: reference
+      postType: category-anouncement
+      referenceTitleField: title
+      showOnGrid: true
+  city:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: city-anouncement
+      referenceTitleField: title
+      showOnGrid: true
+  start-date:
     type: date
     filtering: RANGE
     uiParams:
       component: date-picker
       order: 1
-  finishTime:
+      showOnGrid: true
+  end-date:
     type: date
     filtering: RANGE
     uiParams:
       component: date-picker
       order: 1
-  duration:
-    type: date
-    filtering: RANGE
-    uiParams:
-      component: date-picker
-      order: 1
+      showOnGrid: true
   content:
+    multilingual: true
     type: string
     uiParams:
       component: editor
       order: 3
-  price:
-    type: string
+  new:
+    type: boolean
     uiParams:
-      component: input
-      order: 1
-  file:
-    type: file
-    allowedTypes: [ "pdf", "doc", "docx", "ppt" ]
+      component: checkbox
+      order: 2
+  premium:
+    type: boolean
     uiParams:
-      component: image-upload
+      component: checkbox
+      order: 2
+  pin:
+    type: boolean
+    uiParams:
+      component: checkbox
       order: 2
 uiParams:
   component: post-table

@@ -1,0 +1,55 @@
+name: anouncement
+schema:
+  title:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+  enabled:
+    type: boolean
+    uiParams:
+      component: checkbox
+      order: 2
+  slug:
+    type: string
+    uiParams:
+      component: slug
+      autoGenerateFrom: title
+      order: 2
+  activationTime:
+    type: date
+    filtering: RANGE
+    uiParams:
+      component: date-picker
+      order: 1
+  finishTime:
+    type: date
+    filtering: RANGE
+    uiParams:
+      component: date-picker
+      order: 1
+  duration:
+    type: date
+    filtering: RANGE
+    uiParams:
+      component: date-picker
+      order: 1
+  content:
+    type: string
+    uiParams:
+      component: editor
+      order: 3
+  price:
+    type: string
+    uiParams:
+      component: input
+      order: 1
+  file:
+    type: file
+    allowedTypes: [ "pdf", "doc", "docx", "ppt" ]
+    uiParams:
+      component: image-upload
+      order: 2
+uiParams:
+  component: post-table
