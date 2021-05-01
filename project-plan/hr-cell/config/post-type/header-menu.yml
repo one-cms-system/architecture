@@ -1,15 +1,17 @@
-name: footer-menu
+name: header-menu
 schema:
   name:
-    multilingual: true
     type: string
+    multilingual: true
     uiParams:
-      component: text
-      order: 3
+      component: input
+      inputType: text
+      order: 1
   key:
     type: string
     uiParams:
-      component: text
-      order: 3
+      component: input
+      inputType: text
+      order: 1
 uiParams:
   component: post-table
