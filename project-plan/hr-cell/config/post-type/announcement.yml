@@ -68,4 +68,5 @@ schema:
       component: checkbox
       order: 2
 uiParams:
-  component: post-table
+  component: advertise-layout
+  nameField: title
