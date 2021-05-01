@@ -53,3 +53,4 @@ schema:
       order: 2
 uiParams:
   component: advertise-layout
+  nameField: title
