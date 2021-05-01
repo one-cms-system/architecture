@@ -4,12 +4,12 @@ schema:
     multilingual: true
     type: string
     uiParams:
-      component: editor
+      component: input
       order: 3
   key:
     type: string
     uiParams:
-      component: editor
+      component: input
       order: 3
 uiParams:
   component: post-table
