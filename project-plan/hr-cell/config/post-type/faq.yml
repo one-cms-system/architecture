@@ -4,15 +4,14 @@ schema:
     multilingual: true
     type: string
     uiParams:
-      component: input
-      inputType: editor
+      showOnGrid: true
+      component: editor
       order: 1
   answer:
     multilingual: true
     type: string
     uiParams:
-      component: input
-      inputType: editor
+      component: editor
       order: 1
 uiParams:
   component: post-table

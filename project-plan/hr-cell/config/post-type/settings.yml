@@ -1,0 +1,37 @@
+name: settings
+schema:
+  contactEmail:
+    type: string
+    uiParams:
+      required: false
+      component: input
+      inputType: text
+      order: 1
+      tab: email-config
+  registerEmail:
+    type: string
+    uiParams:
+      required: false
+      component: input
+      inputType: text
+      order: 1
+      tab: email-config
+  facebookUrl:
+    type: string
+    uiParams:
+      required: false
+      component: input
+      inputType: text
+      order: 1
+      tab: social
+  instagramUrl:
+    type: string
+    uiParams:
+      required: false
+      component: input
+      inputType: text
+      order: 1
+      tab: social
+uiParams:
+  component: single-page
+  singular: true

@@ -1,0 +1,90 @@
+name: test
+schema:
+  field1:
+    type: boolean
+    uiParams:
+      required: false
+      component: checkbox
+  field2:
+    type: boolean
+    uiParams:
+      required: false
+      component: checkbox
+  field3:
+    type: boolean
+    uiParams:
+      required: false
+      component: checkbox
+  field4:
+    type: boolean
+    uiParams:
+      required: true
+      component: input
+      type: text
+  deleted:
+    type: boolean
+    uiParams:
+      required: false
+      component: checkbox
+  hidden:
+    type: boolean
+    uiParams:
+      required: false
+      component: checkbox
+  service:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: service
+      referenceTitleField: title
+  file:
+    type: file
+    uiParams:
+      required: false
+      multiple: false
+      component: file
+      type: raw
+  multiFile:
+    type: file
+    uiParams:
+      required: false
+      multiple: true
+      component: file
+      type: raw
+  image:
+    type: file
+    uiParams:
+      required: false
+      multiple: false
+      component: file
+      type: image
+  multiImage:
+    type: file
+    uiParams:
+      required: false
+      multiple: true
+      component: file
+      type: image
+  gallery:
+    type: gallery
+    uiParams:
+      required: false
+      component: gallery
+  links:
+    type: array
+    uiParams:
+      required: false
+      component: list
+      innerType:
+        type: string
+        uiParams:
+          required: false
+          component: input
+          inputType: text
+uiParams:
+  component: advertise-layout
+  ordering: true
+  nameField: title
+  validationEval: "post.data.field1 | post.data.field2 | post.data.field3"
+  validationEvalMessage: "field1 or field2 or field3 must be specified"

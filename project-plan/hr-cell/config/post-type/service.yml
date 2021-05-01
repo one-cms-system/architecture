@@ -9,7 +9,7 @@ schema:
       inputType: text
       order: 1
       showOnGrid: true
-  slug:
+  url:
     type: string
     multilingual: true
     uiParams:
