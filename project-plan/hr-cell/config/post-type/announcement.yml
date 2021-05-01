@@ -23,7 +23,6 @@ schema:
       component: reference
       postType: category-anouncement
       referenceTitleField: title
-      showOnGrid: true
   city:
     type: reference
     uiParams:
@@ -45,7 +44,6 @@ schema:
     uiParams:
       component: date-picker
       order: 1
-      showOnGrid: true
   content:
     multilingual: true
     type: string
