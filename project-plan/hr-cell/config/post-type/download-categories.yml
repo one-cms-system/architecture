@@ -7,5 +7,12 @@ schema:
       component: input
       inputType: text
       order: 1
+  url:
+    multilingual: true
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
 uiParams:
   component: post-table
