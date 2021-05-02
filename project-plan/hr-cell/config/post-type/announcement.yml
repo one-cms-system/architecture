@@ -8,6 +8,7 @@ schema:
       postType: vacancy-anouncement
       referenceTitleField: title
       showOnGrid: true
+      gridFiltering: true
   company:
     type: reference
     uiParams:
@@ -16,6 +17,7 @@ schema:
       postType: company-anouncement
       referenceTitleField: title
       showOnGrid: true
+      gridFiltering: true
   category:
     type: reference
     uiParams:
@@ -23,6 +25,7 @@ schema:
       component: reference
       postType: category-anouncement
       referenceTitleField: title
+      gridFiltering: true
   city:
     type: reference
     uiParams:
@@ -31,6 +34,7 @@ schema:
       postType: city-anouncement
       referenceTitleField: title
       showOnGrid: true
+      gridFiltering: true
   start-date:
     type: date
     filtering: RANGE
@@ -78,3 +82,4 @@ schema:
 uiParams:
   component: advertise-layout
   nameField: title
+  gridFiltering: true
