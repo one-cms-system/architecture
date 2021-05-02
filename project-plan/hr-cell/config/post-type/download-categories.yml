@@ -7,12 +7,13 @@ schema:
       component: input
       inputType: text
       order: 1
+      showOnGrid: true
   url:
-    multilingual: true
     type: string
     uiParams:
       component: input
       inputType: text
       order: 1
+      showOnGrid: true
 uiParams:
   component: post-table

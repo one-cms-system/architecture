@@ -34,5 +34,10 @@ schema:
       component: input
       inputType: text
       order: 1
+  showInAboutPage:
+    type: boolean
+    uiParams:
+      component: checkbox
+      order: 2
 uiParams:
   component: post-table
