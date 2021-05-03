@@ -1,4 +1,4 @@
-name: page
+name: about
 schema:
   title:
     type: string
@@ -15,6 +15,12 @@ schema:
     type: string
     uiParams:
       component: editor
+      order: 1
+  url:
+    type: string
+    uiParams:
+      component: slug
+      autoGenerateFrom: title
       order: 1
 uiParams:
   component: post-table
