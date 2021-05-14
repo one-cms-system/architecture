@@ -8,6 +8,7 @@ schema:
       component: input
       inputType: text
       order: 1
+      showOnGrid: true
   surname:
     required: true
     multilingual: true
@@ -16,6 +17,7 @@ schema:
       component: input
       inputType: text
       order: 1
+      showOnGrid: true
   postion:
     required: true
     multilingual: true
@@ -24,6 +26,7 @@ schema:
       component: input
       inputType: text
       order: 1
+      showOnGrid: true
   profile-image:
     type: image
     allowedTypes: [ "jpg", "jpeg", "png" ]

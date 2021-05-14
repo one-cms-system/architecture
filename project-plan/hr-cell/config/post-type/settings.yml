@@ -3,6 +3,7 @@ schema:
   contactEmail:
     type: string
     uiParams:
+      showOnGrid: true
       required: false
       component: input
       inputType: text
@@ -16,6 +17,7 @@ schema:
       inputType: text
       order: 1
       tab: email-config
+      showOnGrid: true
   facebookUrl:
     type: string
     uiParams:

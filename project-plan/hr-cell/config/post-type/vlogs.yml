@@ -8,6 +8,7 @@ schema:
       component: input
       inputType: text
       order: 1
+      showOnGrid: true
   youtube-link:
     type: string
     uiParams:

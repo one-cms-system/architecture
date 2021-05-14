@@ -23,5 +23,6 @@ schema:
       component: slug
       autoGenerateFrom: title
       order: 1
+      showOnGrid: true
 uiParams:
   component: post-table

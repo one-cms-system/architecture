@@ -16,6 +16,7 @@ schema:
     uiParams:
       component: date-picker
       order: 1
+      showOnGrid: true
   time:
     required: false
     type: time

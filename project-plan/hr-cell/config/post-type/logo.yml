@@ -6,6 +6,7 @@ schema:
       component: input
       inputType: text
       order: 1
+      showOnGrid: true
   preview-logo:
     multilingual: true
     type: file

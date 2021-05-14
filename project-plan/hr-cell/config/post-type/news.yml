@@ -8,6 +8,7 @@ schema:
       component: input
       inputType: text
       order: 1
+      showOnGrid: true
   desctiption:
     multilingual: true
     type: string
@@ -20,6 +21,7 @@ schema:
     uiParams:
       component: date-picker
       order: 2
+      showOnGrid: true
   content:
     multilingual: true
     type: string
