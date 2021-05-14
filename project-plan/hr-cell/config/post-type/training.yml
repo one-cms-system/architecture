@@ -13,6 +13,11 @@ schema:
     uiParams:
       component: checkbox
       order: 2
+  showOnIndex:
+    type: boolean
+    uiParams:
+      component: checkbox
+      order: 2
   url:
     type: string
     uiParams:

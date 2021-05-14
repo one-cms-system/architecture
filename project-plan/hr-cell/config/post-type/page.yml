@@ -18,6 +18,7 @@ schema:
       order: 1
   url:
     type: string
+    multilingual: true
     uiParams:
       component: slug
       autoGenerateFrom: title

@@ -10,6 +10,7 @@ schema:
       showOnGrid: true
   url:
     type: string
+    multilingual: true
     uiParams:
       component: input
       inputType: text
