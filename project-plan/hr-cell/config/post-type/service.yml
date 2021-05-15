@@ -24,7 +24,7 @@ schema:
     uiParams:
       component: editor
       order: 3
-  desctription:
+  description:
     required: false
     type: string
     multilingual: true
