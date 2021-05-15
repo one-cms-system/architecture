@@ -45,7 +45,7 @@ schema:
       inputType: text
       autoGenerateFrom: title
       order: 1
-  metaDescription:
+  description:
     type: string
     uiParams:
       component: input

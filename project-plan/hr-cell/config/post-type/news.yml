@@ -30,11 +30,12 @@ schema:
       order: 1
   url:
     type: string
+    multilingual: true
     uiParams:
-      component: input
-      inputType: text
+      component: slug
+      autoGenerateFrom: title
       order: 1
-  meta-description:
+  description:
     type: string
     uiParams:
       component: input
