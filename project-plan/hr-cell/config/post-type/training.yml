@@ -20,6 +20,7 @@ schema:
       order: 2
   url:
     type: string
+    multilingual: true
     uiParams:
       component: slug
       autoGenerateFrom: title
