@@ -25,7 +25,7 @@ schema:
       component: slug
       autoGenerateFrom: title
       order: 2
-  activationTime:
+  activatonTime:
     type: date
     filtering: RANGE
     uiParams:

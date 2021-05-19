@@ -10,11 +10,11 @@ schema:
       showOnGrid: true
   url:
     type: string
+    multilingual: true
     uiParams:
-      component: input
+      component: slug
       inputType: text
       autoGenerateFrom: title
       order: 1
-
 uiParams:
   component: post-table

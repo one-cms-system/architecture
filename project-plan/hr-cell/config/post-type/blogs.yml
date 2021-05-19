@@ -2,9 +2,9 @@ name: blogs
 schema:
   title:
     type: string
+    multilingual: true
     uiParams:
       required: false
-      multilingual: false
       component: input
       inputType: text
       order: 1
@@ -17,41 +17,38 @@ schema:
       component: date-picker
       order: 1
       showOnGrid: true
-  time:
-    required: false
-    type: time
-    uiParams:
-      component: time
-      order: 1
   desctiption:
     type: string
+    multilingual: true
     uiParams:
       required: false
-      multilingual: false
-      component: input
+      component: editor
       inputType: text
       order: 2
   content:
     required: false
-    multilingual: false
+    multilingual: true
     type: string
     uiParams:
       component: editor
       order: 1
   url:
     type: string
+    multilingual: true
     uiParams:
-      component: input
+      component: slug
       inputType: text
       autoGenerateFrom: title
       order: 1
-  description:
+  meta-description:
+    multilingual: true
     type: string
     uiParams:
       component: input
       inputType: text
       order: 1
   keyword:
+    multilingual: true
     type: string
     uiParams:
       component: input
