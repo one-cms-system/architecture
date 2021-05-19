@@ -1,0 +1,151 @@
+name: company-anouncement
+schema:
+  name:
+    multilingual: true
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  price:
+    multilingual: true
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  area:
+    multilingual: false
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  rooms:
+    multilingual: false
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  date:
+    required: false
+    type: date
+    filtering: RANGE
+    uiParams:
+      component: date-picker
+      order: 1
+      showOnGrid: true
+  city:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: city
+      referenceTitleField: title
+      showOnGrid: true
+      gridFiltering: true
+  type:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: announcement-type
+      referenceTitleField: title
+      showOnGrid: true
+      gridFiltering: true
+  document-type:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: document-type
+      referenceTitleField: title
+      showOnGrid: true
+      gridFiltering: true
+  floor:
+    multilingual: false
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  map:
+    multilingual: false
+    type: string
+    uiParams:
+      component: map
+      inputType: text
+      order: 1
+      showOnGrid: true
+  preview:
+    type: file
+    allowedTypes: [ "jpg", "jpeg", "png" ]
+    uiParams:
+      component: file
+      required: false
+      multiple: false
+      type: raw
+      order: 2
+  plan:
+    type: file
+    allowedTypes: [ "jpg", "jpeg", "png" ]
+    uiParams:
+      component: file
+      required: false
+      multiple: false
+      type: raw
+      order: 2
+  content:
+    multilingual: true
+    type: string
+    uiParams:
+      component: editor
+      inputType: text
+      order: 1
+      showOnGrid: true
+  documented:
+    type: boolean
+    uiParams:
+      component: checkbox
+      order: 2
+  has-ipotech:
+    type: boolean
+    uiParams:
+      component: checkbox
+      order: 2
+  has-internet:
+    type: boolean
+    uiParams:
+      component: checkbox
+      order: 2
+  is-agent:
+    type: boolean
+    uiParams:
+      component: checkbox
+      order: 2
+  is-vip:
+    type: boolean
+    uiParams:
+      component: checkbox
+      order: 2
+  has-servicefee:
+    type: boolean
+    uiParams:
+      component: checkbox
+      order: 2
+  images:
+    type: file
+    allowedTypes: [ "jpg", "jpeg", "png" ]
+    uiParams:
+      required: false
+      multiple: true
+      component: file
+      type: image
+uiParams:
+  component: post-table
