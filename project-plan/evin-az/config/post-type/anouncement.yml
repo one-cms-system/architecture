@@ -8,6 +8,7 @@ schema:
       inputType: text
       order: 1
       showOnGrid: true
+      group: group1
   price:
     multilingual: true
     type: string
@@ -16,6 +17,7 @@ schema:
       inputType: text
       order: 1
       showOnGrid: true
+      group: group1
   area:
     multilingual: false
     type: string
@@ -24,6 +26,7 @@ schema:
       inputType: text
       order: 1
       showOnGrid: true
+      group: group1
   rooms:
     multilingual: false
     type: string
@@ -32,6 +35,7 @@ schema:
       inputType: text
       order: 1
       showOnGrid: true
+      group: group1
   date:
     required: false
     type: date
@@ -40,6 +44,7 @@ schema:
       component: date-picker
       order: 1
       showOnGrid: true
+      group: group1
   city:
     type: reference
     uiParams:
@@ -49,6 +54,7 @@ schema:
       referenceTitleField: title
       showOnGrid: true
       gridFiltering: true
+      group: group1
   type:
     type: reference
     uiParams:
@@ -58,6 +64,7 @@ schema:
       referenceTitleField: title
       showOnGrid: true
       gridFiltering: true
+      group: group2
   document-type:
     type: reference
     uiParams:
@@ -67,6 +74,7 @@ schema:
       referenceTitleField: title
       showOnGrid: true
       gridFiltering: true
+      group: group2
   floor:
     multilingual: false
     type: string
@@ -75,6 +83,7 @@ schema:
       inputType: text
       order: 1
       showOnGrid: true
+      group: group2
   map:
     multilingual: false
     type: string
@@ -83,6 +92,7 @@ schema:
       inputType: text
       order: 1
       showOnGrid: true
+      group: group2
   preview:
     type: file
     allowedTypes: [ "jpg", "jpeg", "png" ]
@@ -92,6 +102,7 @@ schema:
       multiple: false
       type: raw
       order: 2
+      group: group3
   plan:
     type: file
     allowedTypes: [ "jpg", "jpeg", "png" ]
@@ -101,6 +112,7 @@ schema:
       multiple: false
       type: raw
       order: 2
+      group: group3
   content:
     multilingual: true
     type: string
@@ -109,36 +121,43 @@ schema:
       inputType: text
       order: 1
       showOnGrid: true
+      group: group3
   documented:
     type: boolean
     uiParams:
       component: checkbox
       order: 2
+      group: group3
   has-ipotech:
     type: boolean
     uiParams:
       component: checkbox
       order: 2
+      group: group3
   has-internet:
     type: boolean
     uiParams:
       component: checkbox
       order: 2
+      group: group3
   is-agent:
     type: boolean
     uiParams:
       component: checkbox
       order: 2
+      group: group3
   is-vip:
     type: boolean
     uiParams:
       component: checkbox
       order: 2
+      group: group3
   has-servicefee:
     type: boolean
     uiParams:
       component: checkbox
       order: 2
+      group: group3
   images:
     type: file
     allowedTypes: [ "jpg", "jpeg", "png" ]
@@ -147,5 +166,7 @@ schema:
       multiple: true
       component: file
       type: image
+      group: group3
 uiParams:
   component: post-table
+  formComponent: accordion-post
