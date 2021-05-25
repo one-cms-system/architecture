@@ -1,0 +1,28 @@
+name: city
+schema:
+  title:
+    multilingual: true
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  description:
+    multilingual: true
+    type: string
+    uiParams:
+      component: editor
+      inputType: text
+      order: 1
+      showOnGrid: true
+  portfolio:
+    type: file
+    allowedTypes: [ "jpg", "jpeg", "png" ]
+    uiParams:
+      required: false
+      multiple: true
+      component: file
+      type: image
+uiParams:
+  component: post-table

@@ -1,5 +1,10 @@
 name: anouncement
 schema:
+  is-vip:
+    type: boolean
+    uiParams:
+      component: checkbox
+      order: 2
   type:
     type: reference
     uiParams:
@@ -16,6 +21,15 @@ schema:
       component: reference
       postType: merchant
       referenceTitleField: fullname
+      showOnGrid: true
+      gridFiltering: true
+  maintenancy-status:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: maintenancy-status
+      referenceTitleField: title
       showOnGrid: true
       gridFiltering: true
   rent-or-buy:

@@ -1,0 +1,139 @@
+name: residence
+schema:
+  type:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: announcement-type
+      referenceTitleField: title
+      showOnGrid: true
+      gridFiltering: true
+  fullname:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  phone-number: #has to be implemented multiple inputs
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  adress:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  email:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  websilte:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  is-finished:
+    type: boolean
+    uiParams:
+      component: checkbox
+      order: 2
+  start-price:
+    multilingual: false
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  currency:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: currency-type
+      referenceTitleField: title
+      showOnGrid: true
+      gridFiltering: true
+  create-date:
+    required: false
+    type: date
+    filtering: RANGE
+    uiParams:
+      component: date-picker
+      order: 1
+      showOnGrid: true
+  corpuses:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  floors:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  apartments:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  entrance:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  description:
+    multilingual: false
+    type: string
+    uiParams:
+      component: editor
+      inputType: text
+      order: 1
+      showOnGrid: true
+  map-x:
+    multilingual: false
+    type: string
+    uiParams:
+      component: map
+      inputType: text
+      order: 1
+      showOnGrid: true
+  map-y:
+    multilingual: false
+    type: string
+    uiParams:
+      component: map
+      inputType: text
+      order: 1
+      showOnGrid: true
+  images:
+    type: file
+    allowedTypes: [ "jpg", "jpeg", "png" ]
+    uiParams:
+      required: false
+      multiple: true
+      component: file
+      type: image
+uiParams:
+  component: post-table
+  formComponent: accordion-post
