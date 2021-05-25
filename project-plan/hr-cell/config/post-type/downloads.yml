@@ -15,6 +15,14 @@ schema:
       component: reference
       postType: download-categories
       referenceTitleField: title
+  url:
+    type: string
+    multilingual: true
+    uiParams:
+      component: slug
+      inputType: text
+      autoGenerateFrom: title
+      order: 1
   file:
     type: file
     allowedTypes: [ "jpg", "jpeg", "png" ]

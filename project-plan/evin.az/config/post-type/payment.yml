@@ -1,0 +1,35 @@
+name: payment
+schema:
+  pay-amount:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  user:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: user
+      referenceTitleField: username
+      showOnGrid: true
+      gridFiltering: true
+  status:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  pay-date:
+    multilingual: true
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+uiParams:
+  component: post-table

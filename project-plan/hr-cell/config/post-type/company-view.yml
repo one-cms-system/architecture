@@ -9,10 +9,13 @@ schema:
       order: 1
       showOnGrid: true
   preview-image:
-    type: image
+    type: file
     allowedTypes: [ "jpg", "jpeg", "png" ]
     uiParams:
-      component: image
+      component: file
+      required: false
+      multiple: false
+      type: image
       order: 2
   youtube-link:
     type: string

@@ -1,6 +1,29 @@
 name: anouncement
 schema:
-  name:
+  type:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: announcement-type
+      referenceTitleField: title
+      showOnGrid: true
+      gridFiltering: true
+  merchant:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: merchant
+      referenceTitleField: fullname
+      showOnGrid: true
+      gridFiltering: true
+  rent-or-buy:
+    type: boolean
+    uiParams:
+      component: checkbox
+      order: 2
+  title:
     multilingual: true
     type: string
     uiParams:
@@ -9,13 +32,22 @@ schema:
       order: 1
       showOnGrid: true
   price:
-    multilingual: true
+    multilingual: false
     type: string
     uiParams:
       component: input
       inputType: text
       order: 1
       showOnGrid: true
+  currency:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: currency-type
+      referenceTitleField: title
+      showOnGrid: true
+      gridFiltering: true
   area:
     multilingual: false
     type: string
@@ -24,7 +56,7 @@ schema:
       inputType: text
       order: 1
       showOnGrid: true
-  rooms:
+  current-floor:
     multilingual: false
     type: string
     uiParams:
@@ -32,7 +64,49 @@ schema:
       inputType: text
       order: 1
       showOnGrid: true
-  date:
+  total-floors:
+    multilingual: false
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  bedroom-count:
+    multilingual: false
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  guestroom-count:
+    multilingual: false
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  has-barter:
+    type: boolean
+    uiParams:
+      component: checkbox
+      order: 2
+  has-garage:
+    type: boolean
+    uiParams:
+      component: checkbox
+      order: 2
+  create-date:
+    required: false
+    type: date
+    filtering: RANGE
+    uiParams:
+      component: date-picker
+      order: 1
+      showOnGrid: true
+  last-modification-date:
     required: false
     type: date
     filtering: RANGE
@@ -49,15 +123,6 @@ schema:
       referenceTitleField: title
       showOnGrid: true
       gridFiltering: true
-  type:
-    type: reference
-    uiParams:
-      required: false
-      component: reference
-      postType: announcement-type
-      referenceTitleField: title
-      showOnGrid: true
-      gridFiltering: true
   document-type:
     type: reference
     uiParams:
@@ -67,15 +132,29 @@ schema:
       referenceTitleField: title
       showOnGrid: true
       gridFiltering: true
-  floor:
+  ipotech-type:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: ipotech-type
+      referenceTitleField: title
+      showOnGrid: true
+      gridFiltering: true
+  has-internet:
+    type: boolean
+    uiParams:
+      component: checkbox
+      order: 2
+  description:
     multilingual: false
     type: string
     uiParams:
-      component: input
+      component: richtexteditor
       inputType: text
       order: 1
       showOnGrid: true
-  map:
+  map-x:
     multilingual: false
     type: string
     uiParams:
@@ -83,68 +162,28 @@ schema:
       inputType: text
       order: 1
       showOnGrid: true
-  preview:
-    type: file
-    allowedTypes: [ "jpg", "jpeg", "png" ]
-    uiParams:
-      component: file
-      required: false
-      multiple: false
-      type: raw
-      order: 2
-  plan:
-    type: file
-    allowedTypes: [ "jpg", "jpeg", "png" ]
-    uiParams:
-      component: file
-      required: false
-      multiple: false
-      type: raw
-      order: 2
-  content:
-    multilingual: true
+  map-y:
+    multilingual: false
     type: string
     uiParams:
-      component: editor
+      component: map
       inputType: text
       order: 1
       showOnGrid: true
-  documented:
-    type: boolean
-    uiParams:
-      component: checkbox
-      order: 2
-  has-ipotech:
-    type: boolean
-    uiParams:
-      component: checkbox
-      order: 2
-  has-internet:
-    type: boolean
-    uiParams:
-      component: checkbox
-      order: 2
-  is-agent:
-    type: boolean
-    uiParams:
-      component: checkbox
-      order: 2
-  is-vip:
-    type: boolean
-    uiParams:
-      component: checkbox
-      order: 2
-  has-servicefee:
-    type: boolean
-    uiParams:
-      component: checkbox
-      order: 2
   images:
     type: file
     allowedTypes: [ "jpg", "jpeg", "png" ]
     uiParams:
       required: false
       multiple: true
+      component: file
+      type: image
+  blueprint:
+    type: file
+    allowedTypes: [ "jpg", "jpeg", "png" ]
+    uiParams:
+      required: false
+      multiple: false
       component: file
       type: image
 uiParams:

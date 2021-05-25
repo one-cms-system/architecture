@@ -1,0 +1,58 @@
+#name, bio, avatar, phone#, address, email
+name: merchant
+schema:
+  fullname:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  type:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: merchant-type
+      referenceTitleField: title
+      showOnGrid: true
+      gridFiltering: true
+  bio:
+    type: string
+    uiParams:
+      component: richtexteditor
+      inputType: text
+      order: 1
+      showOnGrid: true
+  avatar:
+    type: file
+    allowedTypes: [ "jpg", "jpeg", "png" ]
+    uiParams:
+      component: file
+      required: false
+      multiple: false
+      type: image
+      order: 2
+  phone-number: #has to be implemented multiple inputs
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  adress:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  email:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+uiParams:
+  component: post-table
