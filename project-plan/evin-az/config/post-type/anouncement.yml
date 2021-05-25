@@ -150,7 +150,7 @@ schema:
     multilingual: false
     type: string
     uiParams:
-      component: richtexteditor
+      component: input
       inputType: text
       order: 1
       showOnGrid: true
@@ -188,3 +188,4 @@ schema:
       type: image
 uiParams:
   component: post-table
+  formComponent: accordion-post
