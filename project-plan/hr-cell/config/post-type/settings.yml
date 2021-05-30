@@ -1,39 +1,32 @@
 name: settings
 schema:
-  contactEmail:
+  email:
     type: string
+    multilingual: false
     uiParams:
       showOnGrid: true
       required: false
       component: input
       inputType: text
       order: 1
-      tab: email-config
-  registerEmail:
+  phone:
     type: string
+    multilingual: false
     uiParams:
-      required: false
-      component: input
-      inputType: text
-      order: 1
-      tab: email-config
       showOnGrid: true
-  facebookUrl:
-    type: string
-    uiParams:
       required: false
       component: input
       inputType: text
       order: 1
-      tab: social
-  instagramUrl:
+  adress:
     type: string
+    multilingual: false
     uiParams:
+      showOnGrid: true
       required: false
       component: input
       inputType: text
       order: 1
-      tab: social
 uiParams:
   component: single-page
   singular: true
