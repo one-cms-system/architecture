@@ -18,7 +18,7 @@ schema:
       component: input
       inputType: text
       order: 1
-  adress:
+  address:
     type: string
     multilingual: false
     uiParams:
