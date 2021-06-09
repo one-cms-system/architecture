@@ -25,6 +25,7 @@ schema:
       order: 1
   description:
     type: string
+    multilingual: true
     uiParams:
       component: input
       inputType: text
@@ -40,5 +41,13 @@ schema:
     uiParams:
       component: checkbox
       order: 2
+  photos:
+    type: file
+    allowedTypes: [ "jpg", "jpeg", "png" ]
+    uiParams:
+      required: false
+      multiple: true
+      component: file
+      type: image
 uiParams:
   component: post-table

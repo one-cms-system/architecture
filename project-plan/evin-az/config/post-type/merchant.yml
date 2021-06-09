@@ -20,7 +20,7 @@ schema:
   bio:
     type: string
     uiParams:
-      component: richtexteditor
+      component: editor
       inputType: text
       order: 1
       showOnGrid: true

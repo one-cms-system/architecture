@@ -36,6 +36,15 @@ schema:
     multilingual: true
     uiParams:
       component: text-area
+  file:
+    type: file
+    allowedTypes: [ "jpg", "jpeg", "png" ]
+    uiParams:
+      component: file
+      required: false
+      multiple: false
+      type: image
+      order: 2
 uiParams:
   component: post-table
   ordering: true

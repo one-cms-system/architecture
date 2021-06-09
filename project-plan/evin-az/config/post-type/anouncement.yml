@@ -5,12 +5,39 @@ schema:
     uiParams:
       component: checkbox
       order: 2
-  type:
+  announcement-type:
     type: reference
     uiParams:
       required: false
       component: reference
-      postType: announcement-type
+      postType: anouncement-type
+      referenceTitleField: title
+      showOnGrid: true
+      gridFiltering: true
+  announcement-object-type:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: anouncement-object-type
+      referenceTitleField: title
+      showOnGrid: true
+      gridFiltering: true
+  marker:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: marker
+      referenceTitleField: title
+      showOnGrid: true
+      gridFiltering: true
+  metro:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: metro
       referenceTitleField: title
       showOnGrid: true
       gridFiltering: true
@@ -119,7 +146,7 @@ schema:
     uiParams:
       component: date-picker
       order: 1
-      showOnGrid: true
+      showOnGrid: false
   last-modification-date:
     required: false
     type: date
@@ -127,7 +154,7 @@ schema:
     uiParams:
       component: date-picker
       order: 1
-      showOnGrid: true
+      showOnGrid: false
   city:
     type: reference
     uiParams:
@@ -135,7 +162,7 @@ schema:
       component: reference
       postType: city
       referenceTitleField: title
-      showOnGrid: true
+      showOnGrid: false
       gridFiltering: true
   document-type:
     type: reference
@@ -144,7 +171,7 @@ schema:
       component: reference
       postType: document-type
       referenceTitleField: title
-      showOnGrid: true
+      showOnGrid: false
       gridFiltering: true
   ipotech-type:
     type: reference
@@ -153,7 +180,7 @@ schema:
       component: reference
       postType: ipotech-type
       referenceTitleField: title
-      showOnGrid: true
+      showOnGrid: false
       gridFiltering: true
   has-internet:
     type: boolean
@@ -161,6 +188,14 @@ schema:
       component: checkbox
       order: 2
   description:
+    multilingual: true
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: false
+  map-x:
     multilingual: false
     type: string
     uiParams:
@@ -168,19 +203,11 @@ schema:
       inputType: text
       order: 1
       showOnGrid: true
-  map-x:
-    multilingual: false
-    type: string
-    uiParams:
-      component: map
-      inputType: text
-      order: 1
-      showOnGrid: true
   map-y:
     multilingual: false
     type: string
     uiParams:
-      component: map
+      component: input
       inputType: text
       order: 1
       showOnGrid: true

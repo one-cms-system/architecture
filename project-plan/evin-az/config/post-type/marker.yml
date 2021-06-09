@@ -1,4 +1,4 @@
-name: merchant-type
+name: marker
 schema:
   title:
     multilingual: true

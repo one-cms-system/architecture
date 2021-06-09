@@ -5,7 +5,7 @@ schema:
     uiParams:
       required: false
       component: reference
-      postType: announcement-type
+      postType: anouncement-type
       referenceTitleField: title
       showOnGrid: true
       gridFiltering: true
@@ -103,7 +103,7 @@ schema:
       order: 1
       showOnGrid: true
   description:
-    multilingual: false
+    multilingual: true
     type: string
     uiParams:
       component: editor
@@ -114,7 +114,7 @@ schema:
     multilingual: false
     type: string
     uiParams:
-      component: map
+      component: input
       inputType: text
       order: 1
       showOnGrid: true
@@ -122,7 +122,7 @@ schema:
     multilingual: false
     type: string
     uiParams:
-      component: map
+      component: input
       inputType: text
       order: 1
       showOnGrid: true
