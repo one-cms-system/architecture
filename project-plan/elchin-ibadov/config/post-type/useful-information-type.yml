@@ -1,4 +1,5 @@
 name: useful-information-type
+schema:
   title:
     multilingual: true
     type: string

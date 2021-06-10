@@ -1,4 +1,5 @@
 name: professioal-experience
+schema:
   title:
     multilingual: true
     type: string
