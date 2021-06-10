@@ -1,0 +1,29 @@
+{
+  "websiteName": "evinaz",
+  "menu": [
+    {"title": "anouncement-type", "link": "/posts/anouncement-type", "home": true},
+    {"title": "announcement-object-type", "link": "/posts/announcement-object-type", "home": true},
+    {"title": "anouncement", "link": "/posts/anouncement", "home": true},
+    {
+      "title": "locations",
+      "children": [
+        {"title": "city", "link": "/posts/city", "home": true},
+        {"title": "marker", "link": "/posts/marker", "home": true},
+        {"title": "metro", "link": "/posts/metro", "home": true},
+        {"title": "provience", "link": "/posts/provience", "home": true}
+      ]
+    },
+    {"title": "currency-type", "link": "/posts/currency-type", "home": true},
+    {"title": "document-type", "link": "/posts/document-type", "home": true},
+    {"title": "faq", "link": "/posts/faq", "home": true},
+    {"title": "ipotech-type", "link": "/posts/ipotech-type", "home": true},
+    {"title": "maintenancy-status", "link": "/posts/maintenancy-status", "home": true},
+    {"title": "merchant", "link": "/posts/merchant", "home": true},
+    {"title": "page", "link": "/posts/page", "home": true},
+    {"title": "payment", "link": "/posts/payment", "home": true},
+    {"title": "residence", "link": "/posts/residence", "home": true},
+    {"title": "portfolio", "link": "/posts/portfolio", "home": true},
+    {"title": "user", "link": "/posts/user", "home": true},
+    {"title": "translations", "link": "/translations", "home": true}
+  ]
+}
