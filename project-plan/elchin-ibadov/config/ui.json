@@ -1,0 +1,7 @@
+{
+  "websiteName": "elchin-ibadov",
+  "menu": [
+    {"title": "user", "link": "/posts/user", "home": true},
+    {"title": "translations", "link": "/translations", "home": true}
+  ]
+}
