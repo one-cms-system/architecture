@@ -9,6 +9,24 @@ schema:
       component: input
       inputType: text
       order: 1
+  registerEmail:
+    type: string
+    multilingual: false
+    uiParams:
+      showOnGrid: true
+      required: false
+      component: input
+      inputType: text
+      order: 1
+  contactEmail:
+    type: string
+    multilingual: false
+    uiParams:
+      showOnGrid: true
+      required: false
+      component: input
+      inputType: text
+      order: 1
   phone:
     type: string
     multilingual: false
@@ -23,6 +41,27 @@ schema:
     multilingual: false
     uiParams:
       showOnGrid: true
+      required: false
+      component: input
+      inputType: text
+      order: 1
+  facebookUrl:
+    type: string
+    uiParams:
+      required: false
+      component: input
+      inputType: text
+      order: 1
+  instagramUrl:
+    type: string
+    uiParams:
+      required: false
+      component: input
+      inputType: text
+      order: 1
+  linkedinUrl:
+    type: string
+    uiParams:
       required: false
       component: input
       inputType: text
