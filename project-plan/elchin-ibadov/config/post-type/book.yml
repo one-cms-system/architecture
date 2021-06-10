@@ -1,0 +1,46 @@
+name: book
+schema:
+  title:
+    multilingual: true
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  url:
+    multilingual: true
+    type: string
+    uiParams:
+      component: slug
+      autoGenerateFrom: title
+      order: 1
+      showOnGrid: true
+  image:
+    type: file
+    allowedTypes: [ "jpg", "jpeg", "png" ]
+    uiParams:
+      component: file
+      required: true
+      multiple: false
+      type: image
+      order: 2
+  description:
+    multilingual: true
+    type: string
+    uiParams:
+      component: editor
+      inputType: text
+      order: 1
+      showOnGrid: true
+  book-type:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: book-type
+      referenceTitleField: title
+      showOnGrid: true
+      gridFiltering: true
+uiParams:
+  component: post-table

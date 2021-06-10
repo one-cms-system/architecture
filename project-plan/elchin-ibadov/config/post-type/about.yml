@@ -1,0 +1,53 @@
+name: about
+schema:
+  title-description:
+    multilingual: true
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  title:
+    multilingual: true
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  sub-title:
+    multilingual: true
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  content:
+    multilingual: true
+    type: string
+    uiParams:
+      component: editor
+      inputType: text
+      order: 1
+      showOnGrid: true
+  url:
+    multilingual: true
+    type: string
+    uiParams:
+      component: slug
+      autoGenerateFrom: title
+      order: 1
+      showOnGrid: true
+  image:
+    type: file
+    allowedTypes: [ "jpg", "jpeg", "png" ]
+    uiParams:
+      component: file
+      required: true
+      multiple: false
+      type: image
+      order: 2
+uiParams:
+  component: post-table

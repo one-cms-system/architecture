@@ -1,0 +1,52 @@
+name: useful-information
+schema:
+  type:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: useful-information-type
+      referenceTitleField: title
+      showOnGrid: true
+      gridFiltering: true
+  title:
+    multilingual: true
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  sub-title:
+    multilingual: true
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  content:
+    multilingual: true
+    type: string
+    uiParams:
+      component: editor
+      inputType: text
+      order: 1
+      showOnGrid: true
+  publish-date:
+    type: date
+    filtering: RANGE
+    uiParams:
+      component: date-picker
+      order: 1
+  preview-image:
+    type: file
+    allowedTypes: [ "jpg", "jpeg", "png" ]
+    uiParams:
+      component: file
+      required: true
+      multiple: true
+      type: image
+      order: 2
+uiParams:
+  component: post-table

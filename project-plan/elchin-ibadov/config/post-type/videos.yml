@@ -1,0 +1,29 @@
+name: videos
+schema:
+  short-description:
+    multilingual: true
+    type: string
+    uiParams:
+      component: editor
+      inputType: text
+      order: 1
+      showOnGrid: true
+  youtube-link:
+    multilingual: false
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  preview-image:
+    type: file
+    allowedTypes: [ "jpg", "jpeg", "png" ]
+    uiParams:
+      component: file
+      required: true
+      multiple: false
+      type: image
+      order: 2
+uiParams:
+  component: post-table
