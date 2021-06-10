@@ -1,2 +1,1 @@
- rsync -avv project-plan/hr-cell/config root@tisserv.net:/var/www/static/hrcell
- rsync -avv project-plan/evin-az/config root@tisserv.net:/var/www/static/evin-az
+ssh root@kube.tisserv.net "ssh root@192.168.100.157 'cd /mnt/one-cms-config-storage; git pull'"
