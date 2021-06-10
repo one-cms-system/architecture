@@ -1,28 +1,36 @@
-name: portfolio
+name: ahc
 schema:
   title:
-    multilingual: true
     type: string
+    multilingual: true
     uiParams:
       component: input
       inputType: text
       order: 1
       showOnGrid: true
   description:
-    multilingual: true
     type: string
+    multilingual: true
     uiParams:
       component: editor
       inputType: text
       order: 1
       showOnGrid: true
-  portfolio:
+  ahc-photo:
+    multilingual: true
     type: file
     allowedTypes: [ "jpg", "jpeg", "png" ]
     uiParams:
-      required: false
-      multiple: true
+      required: true
+      multiple: false
       component: file
       type: image
+  url:
+    type: string
+    multilingual: true
+    uiParams:
+      component: slug
+      autoGenerateFrom: title
+      order: 1
 uiParams:
   component: post-table

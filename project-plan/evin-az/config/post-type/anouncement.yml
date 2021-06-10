@@ -191,6 +191,14 @@ schema:
     multilingual: true
     type: string
     uiParams:
+      component: editor
+      inputType: text
+      order: 1
+      showOnGrid: false
+  address:
+    multilingual: true
+    type: string
+    uiParams:
       component: input
       inputType: text
       order: 1

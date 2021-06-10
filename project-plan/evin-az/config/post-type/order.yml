@@ -1,4 +1,4 @@
-name: anouncement-type
+name: order
 schema:
   title:
     multilingual: true

@@ -1,5 +1,14 @@
 name: web-banner
 schema:
+  subject:
+    type: string
+    multilingual: true
+    uiParams:
+      showOnGrid: true
+      required: false
+      component: input
+      inputType: text
+      order: 1
   activationTime:
     type: date
     filtering: RANGE
