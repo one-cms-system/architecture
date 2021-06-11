@@ -1,0 +1,8 @@
+{
+  "websiteName": "dev",
+  "menu": [
+    {"title": "test", "link": "/posts/test", "home": true},
+    {"title": "user", "link": "/posts/user", "home": true},
+    {"title": "translations", "link": "/translations", "home": true}
+  ]
+}
