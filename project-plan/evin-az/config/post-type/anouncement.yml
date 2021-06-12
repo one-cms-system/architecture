@@ -23,6 +23,15 @@ schema:
       referenceTitleField: title
       showOnGrid: true
       gridFiltering: true
+  provience:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: provience
+      referenceTitleField: title
+      showOnGrid: true
+      gridFiltering: true
   marker:
     type: reference
     uiParams:
