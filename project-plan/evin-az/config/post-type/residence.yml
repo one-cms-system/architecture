@@ -95,6 +95,33 @@ schema:
       inputType: text
       order: 1
       showOnGrid: true
+  provience:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: provience
+      referenceTitleField: title
+      showOnGrid: true
+      gridFiltering: true
+  metro:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: metro
+      referenceTitleField: title
+      showOnGrid: true
+      gridFiltering: true
+  marker:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: marker
+      referenceTitleField: title
+      showOnGrid: true
+      gridFiltering: true
   entrance:
     type: string
     uiParams:
