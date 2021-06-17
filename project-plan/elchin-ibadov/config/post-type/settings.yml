@@ -66,6 +66,34 @@ schema:
       component: input
       inputType: text
       order: 1
+  gained-success:
+    type: string
+    uiParams:
+      required: false
+      component: input
+      inputType: text
+      order: 1
+  experience:
+    type: string
+    uiParams:
+      required: false
+      component: input
+      inputType: text
+      order: 1
+  published-book:
+    type: string
+    uiParams:
+      required: false
+      component: input
+      inputType: text
+      order: 1
+  printed-article:
+    type: string
+    uiParams:
+      required: false
+      component: input
+      inputType: text
+      order: 1
 uiParams:
   component: single-page
   singular: true
