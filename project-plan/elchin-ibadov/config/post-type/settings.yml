@@ -45,7 +45,7 @@ schema:
       component: input
       inputType: text
       order: 1
-  facebookUrl:
+  twitterUrl:
     type: string
     uiParams:
       required: false
