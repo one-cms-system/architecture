@@ -1,0 +1,99 @@
+name: settings
+schema:
+  email:
+    type: string
+    multilingual: false
+    uiParams:
+      showOnGrid: true
+      required: false
+      component: input
+      inputType: text
+      order: 1
+  registerEmail:
+    type: string
+    multilingual: false
+    uiParams:
+      showOnGrid: true
+      required: false
+      component: input
+      inputType: text
+      order: 1
+  contactEmail:
+    type: string
+    multilingual: false
+    uiParams:
+      showOnGrid: true
+      required: false
+      component: input
+      inputType: text
+      order: 1
+  phone:
+    type: string
+    multilingual: false
+    uiParams:
+      showOnGrid: true
+      required: false
+      component: input
+      inputType: text
+      order: 1
+  address:
+    type: string
+    multilingual: false
+    uiParams:
+      showOnGrid: true
+      required: false
+      component: input
+      inputType: text
+      order: 1
+  twitterUrl:
+    type: string
+    uiParams:
+      required: false
+      component: input
+      inputType: text
+      order: 1
+  instagramUrl:
+    type: string
+    uiParams:
+      required: false
+      component: input
+      inputType: text
+      order: 1
+  linkedinUrl:
+    type: string
+    uiParams:
+      required: false
+      component: input
+      inputType: text
+      order: 1
+  gained-success:
+    type: string
+    uiParams:
+      required: false
+      component: input
+      inputType: text
+      order: 1
+  experience:
+    type: string
+    uiParams:
+      required: false
+      component: input
+      inputType: text
+      order: 1
+  published-book:
+    type: string
+    uiParams:
+      required: false
+      component: input
+      inputType: text
+      order: 1
+  printed-article:
+    type: string
+    uiParams:
+      required: false
+      component: input
+      inputType: text
+      order: 1
+uiParams:
+  component: single-page
+  singular: true
