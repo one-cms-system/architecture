@@ -28,6 +28,7 @@ schema:
       type: image
       order: 2
   gained-success:
+    multilingual: true
     type: string
     uiParams:
       required: false
@@ -35,6 +36,7 @@ schema:
       inputType: text
       order: 1
   experience:
+    multilingual: true
     type: string
     uiParams:
       required: false
@@ -42,6 +44,7 @@ schema:
       inputType: text
       order: 1
   published-book:
+    multilingual: true
     type: string
     uiParams:
       required: false
@@ -49,6 +52,7 @@ schema:
       inputType: text
       order: 1
   printed-article:
+    multilingual: true
     type: string
     uiParams:
       required: false
