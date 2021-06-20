@@ -1,0 +1,10 @@
+name: success-certificate-type
+schema:
+  title:
+    multilingual: true
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
