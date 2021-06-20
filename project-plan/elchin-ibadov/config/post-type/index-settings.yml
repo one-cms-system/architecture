@@ -2,7 +2,7 @@ name: index-settings
 schema:
   fullname:
     type: string
-    multilingual: false
+    multilingual: true
     uiParams:
       showOnGrid: true
       required: false
@@ -11,7 +11,7 @@ schema:
       order: 1
   job-title:
     type: string
-    multilingual: false
+    multilingual: true
     uiParams:
       showOnGrid: true
       required: false
