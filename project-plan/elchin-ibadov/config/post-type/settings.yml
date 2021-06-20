@@ -95,5 +95,5 @@ schema:
       inputType: text
       order: 1
 uiParams:
-  component: single-page
+  component: post-table
   singular: true
