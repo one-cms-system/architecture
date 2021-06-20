@@ -4,15 +4,15 @@
     {"title": "user", "link": "/posts/user", "home": true},
     {"title": "translations", "link": "/translations", "home": true},
     {"title": "about", "link": "/posts/about", "home": true},
-    {"title": "ase", "link": "/ase", "home": true},
+    {"title": "ase", "link": "/posts/ase", "home": true},
     {"title": "book", "link": "/posts/book", "home": true},
-    {"title": "book-type", "link": "/book-type", "home": true},
+    {"title": "book-type", "link": "/posts/book-type", "home": true},
     {"title": "education", "link": "/posts/education", "home": true},
-    {"title": "language-skills", "link": "/language-skills", "home": true},
+    {"title": "language-skills", "link": "/posts/language-skills", "home": true},
     {"title": "page", "link": "/posts/page", "home": true},
-    {"title": "professional-experience", "link": "/professional-experience", "home": true},
+    {"title": "professional-experience", "link": "/posts/professional-experience", "home": true},
     {"title": "useful-information", "link": "/posts/useful-information", "home": true},
-    {"title": "useful-information-type", "link": "/useful-information-type", "home": true},
+    {"title": "useful-information-type", "link": "/posts/useful-information-type", "home": true},
     {"title": "videos", "link": "/posts/videos", "home": true}
   ]
 }
