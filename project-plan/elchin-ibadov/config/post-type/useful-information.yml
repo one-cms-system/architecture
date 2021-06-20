@@ -48,5 +48,13 @@ schema:
       multiple: true
       type: image
       order: 2
+  url:
+    multilingual: true
+    type: string
+    uiParams:
+      component: slug
+      autoGenerateFrom: title
+      order: 1
+      showOnGrid: true
 uiParams:
   component: post-table

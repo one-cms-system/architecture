@@ -8,5 +8,13 @@ schema:
       inputType: text
       order: 1
       showOnGrid: true
+  url:
+    multilingual: true
+    type: string
+    uiParams:
+      component: slug
+      autoGenerateFrom: title
+      order: 1
+      showOnGrid: true
 uiParams:
   component: post-table
