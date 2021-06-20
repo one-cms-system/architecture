@@ -8,3 +8,5 @@ schema:
       inputType: text
       order: 1
       showOnGrid: true
+uiParams:
+  component: post-table
