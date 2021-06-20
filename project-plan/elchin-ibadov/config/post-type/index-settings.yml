@@ -1,4 +1,4 @@
-name: settings
+name: index-settings
 schema:
   fullname:
     type: string
