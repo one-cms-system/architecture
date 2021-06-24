@@ -254,6 +254,7 @@ schema:
         - PENDING
         - PUBLISHED
         - REJECTED
+      langName: announcement-status
 uiParams:
   component: post-table
   formComponent: accordion-post
