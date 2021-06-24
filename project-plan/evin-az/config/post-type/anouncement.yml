@@ -6,6 +6,7 @@ schema:
       required: true
       component: enum-select
       showOnGrid: true
+      group: 'group1'
       enum:
         - PENDING
         - PUBLISHED
@@ -15,6 +16,7 @@ schema:
     type: boolean
     uiParams:
       component: checkbox
+      group: 'group1'
       order: 2
   announcement-type:
     type: reference
@@ -24,6 +26,7 @@ schema:
       postType: anouncement-type
       referenceTitleField: title
       showOnGrid: true
+      group: 'group1'
       gridFiltering: true
   announcement-object-type:
     type: reference
@@ -33,6 +36,7 @@ schema:
       postType: anouncement-object-type
       referenceTitleField: title
       showOnGrid: true
+      group: 'group1'
       gridFiltering: true
   provience:
     type: reference
@@ -42,6 +46,7 @@ schema:
       postType: provience
       referenceTitleField: title
       showOnGrid: true
+      group: 'group1'
       gridFiltering: true
   marker:
     type: reference
@@ -51,6 +56,7 @@ schema:
       postType: marker
       referenceTitleField: title
       showOnGrid: true
+      group: 'group1'
       gridFiltering: true
   metro:
     type: reference
@@ -61,6 +67,7 @@ schema:
       referenceTitleField: title
       showOnGrid: true
       gridFiltering: true
+      group: 'group1'
   merchant:
     type: reference
     uiParams:
@@ -69,6 +76,7 @@ schema:
       postType: merchant
       referenceTitleField: fullname
       showOnGrid: true
+      group: 'group2'
       gridFiltering: true
   maintenancy-status:
     type: reference
@@ -78,11 +86,13 @@ schema:
       postType: maintenancy-status
       referenceTitleField: title
       showOnGrid: true
+      group: 'group2'
       gridFiltering: true
   rent-or-buy:
     type: boolean
     uiParams:
       component: checkbox
+      group: 'group2'
       order: 2
   title:
     multilingual: true
@@ -91,6 +101,7 @@ schema:
       component: input
       inputType: text
       order: 1
+      group: 'group2'
       showOnGrid: true
   price:
     multilingual: false
@@ -100,6 +111,7 @@ schema:
       inputType: text
       order: 1
       showOnGrid: true
+      group: 'group2'
   currency:
     type: reference
     uiParams:
@@ -108,6 +120,7 @@ schema:
       postType: currency-type
       referenceTitleField: title
       showOnGrid: true
+      group: 'group2'
       gridFiltering: true
   area:
     multilingual: false
@@ -115,6 +128,7 @@ schema:
     uiParams:
       component: input
       inputType: text
+      group: 'group2'
       order: 1
       showOnGrid: true
   current-floor:
@@ -124,6 +138,7 @@ schema:
       component: input
       inputType: text
       order: 1
+      group: 'group2'
       showOnGrid: true
   total-floors:
     multilingual: false
@@ -132,12 +147,14 @@ schema:
       component: input
       inputType: text
       order: 1
+      group: 'group2'
       showOnGrid: true
   bedroom-count:
     multilingual: false
     type: string
     uiParams:
       component: input
+      group: 'group2'
       inputType: text
       order: 1
       showOnGrid: true
@@ -148,21 +165,25 @@ schema:
       component: input
       inputType: text
       order: 1
+      group: 'group2'
       showOnGrid: true
   has-barter:
     type: boolean
     uiParams:
       component: checkbox
+      group: 'group2'
       order: 2
   has-garage:
     type: boolean
     uiParams:
       component: checkbox
+      group: 'group2'
       order: 2
   create-date:
     required: false
     type: date
     filtering: RANGE
+    group: 'group2'
     uiParams:
       component: date-picker
       order: 1
@@ -170,6 +191,7 @@ schema:
   last-modification-date:
     required: false
     type: date
+    group: 'group2'
     filtering: RANGE
     uiParams:
       component: date-picker
@@ -178,6 +200,7 @@ schema:
   city:
     type: reference
     uiParams:
+      group: 'group2'
       required: false
       component: reference
       postType: city
@@ -188,6 +211,7 @@ schema:
     type: reference
     uiParams:
       required: false
+      group: 'group2'
       component: reference
       postType: document-type
       referenceTitleField: title
@@ -197,6 +221,7 @@ schema:
     type: reference
     uiParams:
       required: false
+      group: 'group2'
       component: reference
       postType: ipotech-type
       referenceTitleField: title
@@ -206,6 +231,7 @@ schema:
     type: boolean
     uiParams:
       component: checkbox
+      group: 'group3'
       order: 2
   description:
     multilingual: true
@@ -213,6 +239,7 @@ schema:
     uiParams:
       component: editor
       inputType: text
+      group: 'group3'
       order: 1
       showOnGrid: false
   address:
@@ -221,6 +248,7 @@ schema:
     uiParams:
       component: input
       inputType: text
+      group: 'group3'
       order: 1
       showOnGrid: false
   map-x:
@@ -229,6 +257,7 @@ schema:
     uiParams:
       component: input
       inputType: text
+      group: 'group3'
       order: 1
       showOnGrid: true
   map-y:
@@ -237,6 +266,7 @@ schema:
     uiParams:
       component: input
       inputType: text
+      group: 'group3'
       order: 1
       showOnGrid: true
   images:
@@ -245,6 +275,7 @@ schema:
     uiParams:
       required: false
       multiple: true
+      group: 'group3'
       component: file
       type: image
   blueprint:
@@ -252,6 +283,7 @@ schema:
     allowedTypes: [ "jpg", "jpeg", "png" ]
     uiParams:
       required: false
+      group: 'group3'
       multiple: false
       component: file
       type: image
