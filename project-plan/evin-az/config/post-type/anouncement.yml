@@ -1,5 +1,16 @@
 name: anouncement
 schema:
+  status:
+    type: enum-select
+    uiParams:
+      required: true
+      component: enum-select
+      showOnGrid: true
+      enum:
+        - PENDING
+        - PUBLISHED
+        - REJECTED
+      langName: announcement-status
   is-vip:
     type: boolean
     uiParams:
@@ -244,17 +255,6 @@ schema:
       multiple: false
       component: file
       type: image
-  status:
-    type: enum-select
-    uiParams:
-      required: true
-      component: enum-select
-      showOnGrid: true
-      enum:
-        - PENDING
-        - PUBLISHED
-        - REJECTED
-      langName: announcement-status
 uiParams:
   component: post-table
   formComponent: accordion-post
