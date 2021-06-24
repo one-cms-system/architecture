@@ -244,6 +244,16 @@ schema:
       multiple: false
       component: file
       type: image
+  status:
+    type: enum-select
+    uiParams:
+      required: true
+      component: enum-select
+      showOnGrid: true
+      enum:
+        - PENDING
+        - PUBLISHED
+        - REJECTED
 uiParams:
   component: post-table
   formComponent: accordion-post
