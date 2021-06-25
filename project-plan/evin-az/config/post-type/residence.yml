@@ -163,4 +163,3 @@ schema:
       type: image
 uiParams:
   component: post-table
-  formComponent: accordion-post
