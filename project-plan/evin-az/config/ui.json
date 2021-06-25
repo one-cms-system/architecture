@@ -2,7 +2,7 @@
   "websiteName": "evinaz",
   "menu": [
     {"title": "anouncement-type", "link": "/posts/anouncement-type", "home": true},
-    {"title": "announcement-object-type", "link": "/posts/announcement-object-type", "home": true},
+    {"title": "announcement-object-type", "link": "/posts/anouncement-object-type", "home": true},
     {"title": "anouncement", "link": "/posts/anouncement", "home": true},
     {
       "title": "locations",
@@ -23,7 +23,6 @@
     {"title": "payment", "link": "/posts/payment", "home": true},
     {"title": "residence", "link": "/posts/residence", "home": true},
     {"title": "portfolio", "link": "/posts/portfolio", "home": true},
-    {"title": "user", "link": "/posts/user", "home": true},
     {"title": "translations", "link": "/translations", "home": true}
   ]
 }
