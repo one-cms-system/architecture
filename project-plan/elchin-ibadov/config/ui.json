@@ -13,6 +13,9 @@
     {"title": "professional-experience", "link": "/posts/professional-experience", "home": true},
     {"title": "useful-information", "link": "/posts/useful-information", "home": true},
     {"title": "useful-information-type", "link": "/posts/useful-information-type", "home": true},
-    {"title": "videos", "link": "/posts/videos", "home": true}
+    {"title": "videos", "link": "/posts/videos", "home": true},
+    {"title": "index-settings", "link": "/posts/index-settings", "home": true},
+    {"title": "success-certificate-type", "link": "/posts/success-certificate-type", "home": true},
+    {"title": "success-certificate", "link": "/posts/success-certificate", "home": true}
   ]
 }
