@@ -28,6 +28,16 @@ schema:
       showOnGrid: true
       group: 'group1'
       gridFiltering: true
+  adverse-type:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: adverse-type
+      referenceTitleField: title
+      showOnGrid: true
+      group: 'group1'
+      gridFiltering: true
   announcement-object-type:
     type: reference
     uiParams:
