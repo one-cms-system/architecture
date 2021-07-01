@@ -207,6 +207,16 @@ schema:
       referenceTitleField: title
       showOnGrid: false
       gridFiltering: true
+  village:
+    type: reference
+    uiParams:
+      group: 'group2'
+      required: false
+      component: reference
+      postType: village
+      referenceTitleField: title
+      showOnGrid: false
+      gridFiltering: true
   document-type:
     type: reference
     uiParams:
