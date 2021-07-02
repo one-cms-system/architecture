@@ -76,7 +76,7 @@ schema:
       showOnGrid: true
       group: 'group1'
       gridFiltering: true
-  provience:
+  f:
     type: reference
     uiParams:
       required: false
@@ -197,6 +197,15 @@ schema:
       order: 1
       showOnGrid: true
   guestroom-count:
+    multilingual: false
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      group: 'group2'
+      showOnGrid: true
+  sanitar-count:
     multilingual: false
     type: string
     uiParams:

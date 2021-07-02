@@ -3,6 +3,7 @@
   "menu": [
     {"title": "anouncement-type", "link": "/posts/anouncement-type", "home": true},
     {"title": "announcement-object-type", "link": "/posts/anouncement-object-type", "home": true},
+    {"title": "adverse-type", "link": "/posts/adverse-type", "home": true},
     {"title": "anouncement", "link": "/posts/anouncement", "home": true},
     {
       "title": "locations",
@@ -10,7 +11,8 @@
         {"title": "city", "link": "/posts/city", "home": true},
         {"title": "marker", "link": "/posts/marker", "home": true},
         {"title": "metro", "link": "/posts/metro", "home": true},
-        {"title": "provience", "link": "/posts/provience", "home": true}
+        {"title": "provience", "link": "/posts/provience", "home": true},
+        {"title": "village", "link": "/posts/village", "home": true}
       ]
     },
     {"title": "currency-type", "link": "/posts/currency-type", "home": true},
