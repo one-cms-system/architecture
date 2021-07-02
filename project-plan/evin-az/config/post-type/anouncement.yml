@@ -19,6 +19,20 @@ schema:
       inputType: text
       order: 1
       showOnGrid: true
+  userPhone1:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  userPhone2:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
   userEmail:
     type: string
     uiParams:
