@@ -12,6 +12,20 @@ schema:
         - PUBLISHED
         - REJECTED
       langName: announcement-status
+  userFullName:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  userEmail:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
   is-vip:
     type: boolean
     uiParams:
