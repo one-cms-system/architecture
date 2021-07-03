@@ -16,6 +16,7 @@
     {"title": "videos", "link": "/posts/videos", "home": true},
     {"title": "index-settings", "link": "/posts/index-settings", "home": true},
     {"title": "success-certificate-type", "link": "/posts/success-certificate-type", "home": true},
-    {"title": "success-certificate", "link": "/posts/success-certificate", "home": true}
+    {"title": "success-certificate", "link": "/posts/success-certificate", "home": true},
+    {"title": "hobby", "link": "/posts/hobby", "home": true}
   ]
 }
