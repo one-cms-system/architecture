@@ -40,6 +40,16 @@ schema:
       inputType: text
       order: 1
       showOnGrid: true
+  user:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: user
+      referenceTitleField: email
+      showOnGrid: true
+      group: 'group1'
+      gridFiltering: true
   is-vip:
     type: boolean
     uiParams:
@@ -227,6 +237,15 @@ schema:
       group: 'group2'
       order: 2
   create-date:
+    required: false
+    type: date
+    filtering: RANGE
+    group: 'group2'
+    uiParams:
+      component: date-picker
+      order: 1
+      showOnGrid: false
+  anouncement-date:
     required: false
     type: date
     filtering: RANGE
