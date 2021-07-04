@@ -352,7 +352,7 @@ schema:
       group: 'group3'
       order: 1
       showOnGrid: false
-  map-x:
+  map-lng:
     multilingual: false
     type: string
     uiParams:
@@ -361,7 +361,7 @@ schema:
       group: 'group3'
       order: 1
       showOnGrid: false
-  map-y:
+  map-lat:
     multilingual: false
     type: string
     uiParams:
