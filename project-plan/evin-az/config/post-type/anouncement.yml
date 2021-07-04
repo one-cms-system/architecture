@@ -20,6 +20,13 @@ schema:
       inputType: text
       order: 1
       showOnGrid: false
+  remainingPromotionCount:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: false
   userPhone1:
     type: string
     uiParams:
