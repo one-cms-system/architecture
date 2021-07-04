@@ -19,28 +19,28 @@ schema:
       component: input
       inputType: text
       order: 1
-      showOnGrid: true
+      showOnGrid: false
   userPhone1:
     type: string
     uiParams:
       component: input
       inputType: text
       order: 1
-      showOnGrid: true
+      showOnGrid: false
   userPhone2:
     type: string
     uiParams:
       component: input
       inputType: text
       order: 1
-      showOnGrid: true
+      showOnGrid: false
   userEmail:
     type: string
     uiParams:
       component: input
       inputType: text
       order: 1
-      showOnGrid: true
+      showOnGrid: false
   user:
     type: reference
     uiParams:
@@ -87,7 +87,7 @@ schema:
       showOnGrid: true
       group: 'group1'
       gridFiltering: true
-  f:
+  provience:
     type: reference
     uiParams:
       required: false
