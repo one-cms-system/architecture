@@ -74,6 +74,23 @@ schema:
       showOnGrid: true
       group: 'group1'
       gridFiltering: true
+  office-type:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: office-type
+      referenceTitleField: title
+      showOnGrid: true
+      group: 'group1'
+      gridFiltering: true
+  office-room-count:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: false
   adverse-type:
     type: reference
     uiParams:
