@@ -25,6 +25,10 @@
     {"title": "payment", "link": "/posts/payment", "home": true},
     {"title": "residence", "link": "/posts/residence", "home": true},
     {"title": "portfolio", "link": "/posts/portfolio", "home": true},
-    {"title": "translations", "link": "/translations", "home": true}
+    {"title": "translations", "link": "/translations", "home": true},
+    {"title": "order", "link": "/order", "home": true},
+    {"title": "order-type", "link": "/order-type", "home": true},
+    {"title": "user", "link": "/user", "home": true}
+
   ]
 }
