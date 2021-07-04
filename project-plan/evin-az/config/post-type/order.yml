@@ -8,5 +8,43 @@ schema:
       inputType: text
       order: 1
       showOnGrid: true
+  user:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: user
+      referenceTitleField: email
+      showOnGrid: true
+      group: 'group1'
+      gridFiltering: true
+  amount:
+    multilingual: true
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  announcement:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: anouncement
+      referenceTitleField: title
+      showOnGrid: true
+      group: 'group1'
+      gridFiltering: true
+  type:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: order-type
+      referenceTitleField: title
+      showOnGrid: true
+      group: 'group1'
+      gridFiltering: true
 uiParams:
   component: post-table

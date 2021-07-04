@@ -1,0 +1,41 @@
+name: web-banner
+schema:
+  subject:
+    type: string
+    multilingual: true
+    uiParams:
+      showOnGrid: true
+      required: false
+      component: input
+      inputType: text
+      order: 1
+  activationTime:
+    type: date
+    filtering: RANGE
+    uiParams:
+      required: false
+      component: date-picker
+      order: 1
+  finishTime:
+    type: date
+    filtering: RANGE
+    uiParams:
+      required: false
+      component: date-picker
+      order: 1
+  image:
+    type: file
+    allowedTypes: [ "gif", "jpeg", "jpg", "png" ]
+    uiParams:
+      required: false
+      component: image
+      order: 2
+  link:
+    type: string
+    uiParams:
+      required: false
+      component: input
+      inputType: text
+      order: 2
+uiParams:
+  component: post-table
