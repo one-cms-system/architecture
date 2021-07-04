@@ -367,3 +367,4 @@ schema:
 uiParams:
   component: post-table
   formComponent: accordion-post
+  gridFiltering: true
