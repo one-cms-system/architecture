@@ -9,8 +9,9 @@ schema:
       group: 'group1'
       enum:
         - PENDING
-        - PUBLISHED
+        - ACTIVE
         - REJECTED
+        - EXPIRED
       langName: announcement-status
   userFullName:
     type: string
