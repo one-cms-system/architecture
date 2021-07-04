@@ -222,6 +222,15 @@ schema:
       order: 1
       group: 'group2'
       showOnGrid: false
+  land-area:
+    multilingual: false
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      group: 'group2'
+      showOnGrid: false
   bedroom-count:
     multilingual: false
     type: string
