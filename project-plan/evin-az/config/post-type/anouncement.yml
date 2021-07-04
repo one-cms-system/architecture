@@ -240,6 +240,15 @@ schema:
       inputType: text
       order: 1
       showOnGrid: false
+  total-room-count:
+    multilingual: false
+    type: string
+    uiParams:
+      component: input
+      group: 'group2'
+      inputType: text
+      order: 1
+      showOnGrid: false
   guestroom-count:
     multilingual: false
     type: string
