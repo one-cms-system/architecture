@@ -8,5 +8,15 @@ schema:
       inputType: text
       order: 1
       showOnGrid: true
+  provience:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: user
+      referenceTitleField: provience
+      showOnGrid: true
+      group: 'group1'
+      gridFiltering: true
 uiParams:
   component: post-table
