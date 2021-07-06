@@ -200,7 +200,7 @@ schema:
     type: string
     uiParams:
       component: input
-      inputType: text
+      inputType: number
       group: 'group2'
       order: 1
       showOnGrid: false
