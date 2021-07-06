@@ -14,7 +14,7 @@ schema:
       required: false
       component: reference
       postType: user
-      referenceTitleField: provience
+      referenceTitleField: title
       showOnGrid: true
       group: 'group1'
       gridFiltering: true
