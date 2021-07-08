@@ -1,0 +1,7 @@
+{
+  "websiteName": "evinaz",
+  "menu": [
+    {"title": "user", "link": "/user", "home": true}
+
+  ]
+}
