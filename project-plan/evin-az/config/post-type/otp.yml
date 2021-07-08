@@ -1,4 +1,4 @@
-name: adverse-type
+name: otp
 schema:
   requestId:
     multilingual: false
