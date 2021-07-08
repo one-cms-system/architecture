@@ -1,0 +1,85 @@
+name: anouncement
+schema:
+  vacancy:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: vacancy-anouncement
+      referenceTitleField: title
+      showOnGrid: true
+      gridFiltering: true
+  company:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: company-anouncement
+      referenceTitleField: title
+      showOnGrid: true
+      gridFiltering: true
+  category:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: category-anouncement
+      referenceTitleField: title
+      gridFiltering: true
+  city:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: city-anouncement
+      referenceTitleField: title
+      showOnGrid: true
+      gridFiltering: true
+  start-date:
+    type: date
+    filtering: RANGE
+    uiParams:
+      component: date-picker
+      order: 1
+      showOnGrid: true
+  end-date:
+    type: date
+    filtering: RANGE
+    uiParams:
+      component: date-picker
+      order: 1
+  content:
+    multilingual: true
+    type: string
+    uiParams:
+      component: editor
+      order: 3
+  new:
+    type: boolean
+    uiParams:
+      component: checkbox
+      order: 2
+  premium:
+    type: boolean
+    uiParams:
+      component: checkbox
+      order: 2
+  pin:
+    type: boolean
+    uiParams:
+      component: checkbox
+      order: 2
+  deleted:
+    type: boolean
+    uiParams:
+      component: checkbox
+      order: 2
+  hidden:
+    type: boolean
+    uiParams:
+      component: checkbox
+      order: 2
+uiParams:
+  component: advertise-layout
+  nameField: title
+  gridFiltering: true

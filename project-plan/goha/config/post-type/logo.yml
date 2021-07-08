@@ -1,0 +1,38 @@
+name: logo
+schema:
+  title:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  preview-logo:
+    multilingual: true
+    type: file
+    allowedTypes: [ "jpg", "jpeg", "png" ]
+    uiParams:
+      required: true
+      multiple: false
+      component: file
+      type: image
+  original-logo:
+    multilingual: true
+    type: file
+    allowedTypes: [ "zip" ]
+    uiParams:
+      required: true
+      multiple: false
+      component: file
+      type: raw
+  rules:
+    multilingual: true
+    type: file
+    allowedTypes: [ "pdf" ]
+    uiParams:
+      required: true
+      multiple: false
+      component: file
+      type: raw
+uiParams:
+  component: post-table

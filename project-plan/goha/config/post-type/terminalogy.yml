@@ -1,0 +1,11 @@
+name: terminalogy
+schema:
+  title:
+    multilingual: true
+    required: false
+    type: string
+    uiParams:
+      component: editor
+      order: 1
+uiParams:
+  component: post-table

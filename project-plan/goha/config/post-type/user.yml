@@ -1,0 +1,19 @@
+name: user
+schema:
+  username:
+    type: string
+    uiParams:
+      required: true
+      component: input
+      inputType: text
+      showOnGrid: true
+      order: 1
+  password:
+    type: string
+    uiParams:
+      required: true
+      component: password
+      order: 1
+uiParams:
+  component: post-table
+  nameField: username

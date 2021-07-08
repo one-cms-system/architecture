@@ -1,0 +1,40 @@
+name: company-experts
+schema:
+  name:
+    multilingual: true
+    required: true
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  surname:
+    required: true
+    multilingual: true
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  postion:
+    required: true
+    multilingual: true
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  profile-image:
+    type: image
+    allowedTypes: [ "jpg", "jpeg", "png" ]
+    uiParams:
+      required: false
+      multiple: false
+      component: file
+      type: image
+      order: 2
+uiParams:
+  component: post-table

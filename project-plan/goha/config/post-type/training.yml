@@ -1,0 +1,78 @@
+name: training
+schema:
+  title:
+    type: string
+    multilingual: true
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  enabled:
+    type: boolean
+    uiParams:
+      component: checkbox
+      order: 2
+  showOnIndex:
+    type: boolean
+    uiParams:
+      component: checkbox
+      order: 2
+  url:
+    type: string
+    multilingual: true
+    uiParams:
+      component: slug
+      autoGenerateFrom: title
+      order: 2
+  activatonTime:
+    type: date
+    filtering: RANGE
+    uiParams:
+      component: date-picker
+      order: 1
+  finishTime:
+    type: date
+    filtering: RANGE
+    uiParams:
+      component: date-picker
+      order: 1
+  duration:
+    type: number
+    uiParams:
+      component: input
+      inputType: number
+      order: 1
+      showOnGrid: true
+  content:
+    multilingual: true
+    type: string
+    uiParams:
+      component: editor
+      order: 3
+  price:
+    type: number
+    filtering: RANGE
+    uiParams:
+      component: input
+      inputType: number
+      order: 1
+      showOnGrid: true
+  image:
+    type: file
+    allowedTypes: [ "pdf", "doc", "docx", "ppt" ]
+    uiParams:
+      required: false
+      multiple: false
+      component: file
+      type: image
+  file:
+    type: file
+    allowedTypes: [ "pdf", "doc", "docx", "ppt" ]
+    uiParams:
+      required: false
+      multiple: false
+      component: file
+      type: raw
+uiParams:
+  component: post-table

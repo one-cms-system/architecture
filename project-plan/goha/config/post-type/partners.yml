@@ -1,0 +1,25 @@
+name: partners
+schema:
+  name:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  preview-logo:
+    type: file
+    allowedTypes: [ "jpg", "jpeg", "png" ]
+    uiParams:
+      required: false
+      multiple: false
+      component: file
+      type: image
+  url-for-image:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+uiParams:
+  component: post-table

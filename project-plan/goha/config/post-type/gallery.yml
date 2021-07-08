@@ -1,0 +1,37 @@
+name: gallery
+schema:
+  name:
+    type: string
+    multilingual: true
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  priview-image:
+    type: file
+    allowedTypes: [ "jpg", "jpeg", "png" ]
+    uiParams:
+      component: file
+      required: false
+      multiple: false
+      type: image
+      order: 2
+  original-image:
+    type: file
+    allowedTypes: [ "jpg", "jpeg", "png" ]
+    uiParams:
+      component: file
+      required: false
+      multiple: false
+      type: image
+      order: 2
+  youtube-link:
+    type: string
+    multilingual: true
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+uiParams:
+  component: post-table

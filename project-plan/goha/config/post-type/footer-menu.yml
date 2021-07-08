@@ -1,0 +1,25 @@
+name: footer-menu
+schema:
+  name:
+    type: string
+    multilingual: true
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  key:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+  url:
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+uiParams:
+  component: post-table

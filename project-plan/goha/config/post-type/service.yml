@@ -1,0 +1,51 @@
+name: service
+schema:
+  title:
+    type: string
+    multilingual: true
+    uiParams:
+      required: false
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  url:
+    type: string
+    multilingual: true
+    uiParams:
+      required: false
+      component: slug
+      autoGenerateFrom: title
+      order: 2
+  content:
+    required: false
+    type: string
+    multilingual: true
+    uiParams:
+      component: editor
+      order: 3
+  description:
+    required: false
+    type: string
+    multilingual: true
+    uiParams:
+      component: text-area
+  keywords:
+    required: false
+    type: string
+    multilingual: true
+    uiParams:
+      component: text-area
+  file:
+    type: file
+    allowedTypes: [ "jpg", "jpeg", "png" ]
+    uiParams:
+      component: file
+      required: false
+      multiple: false
+      type: image
+      order: 2
+uiParams:
+  component: post-table
+  ordering: true
+  nameField: title

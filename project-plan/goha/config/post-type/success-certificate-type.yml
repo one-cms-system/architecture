@@ -1,0 +1,20 @@
+name: success-certificate-type
+schema:
+  title:
+    multilingual: true
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  url:
+    multilingual: true
+    type: string
+    uiParams:
+      component: slug
+      autoGenerateFrom: title
+      order: 1
+      showOnGrid: true
+uiParams:
+  component: post-table

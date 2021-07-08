@@ -1,0 +1,36 @@
+name: downloads
+schema:
+  title:
+    multilingual: true
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  download-categories:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: download-categories
+      referenceTitleField: title
+  url:
+    type: string
+    multilingual: true
+    uiParams:
+      component: slug
+      inputType: text
+      autoGenerateFrom: title
+      order: 1
+  file:
+    type: file
+    allowedTypes: [ "jpg", "jpeg", "png" ]
+    uiParams:
+      component: file
+      required: false
+      multiple: false
+      type: raw
+      order: 2
+uiParams:
+  component: post-table

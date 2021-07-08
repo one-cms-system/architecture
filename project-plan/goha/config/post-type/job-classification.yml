@@ -1,0 +1,26 @@
+name: terminalogy
+schema:
+  title:
+    multilingual: true
+    required: false
+    type: string
+    uiParams:
+      component: editor
+      order: 1
+  content:
+    multilingual: true
+    required: false
+    type: string
+    uiParams:
+      component: editor
+      order: 1
+  url:
+    multilingual: true
+    type: string
+    uiParams:
+      component: slug
+      autoGenerateFrom: title
+      order: 1
+      showOnGrid: true
+uiParams:
+  component: post-table

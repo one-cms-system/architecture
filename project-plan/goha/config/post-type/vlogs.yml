@@ -1,0 +1,28 @@
+name: vlogs
+schema:
+  title:
+    type: string
+    uiParams:
+      required: false
+      multilingual: false
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  youtube-link:
+    type: string
+    uiParams:
+      required: false
+      component: input
+      inputType: text
+      order: 1
+  preview-image:
+    type: image
+    allowedTypes: [ "jpg", "jpeg", "png" ]
+    uiParams:
+      required: false
+      multiple: false
+      component: file
+      type: image
+uiParams:
+  component: post-table
