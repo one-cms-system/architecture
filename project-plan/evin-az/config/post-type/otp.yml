@@ -12,7 +12,7 @@ schema:
     multilingual: false
     type: string
     uiParams:
-      component: false
+      component: input
       inputType: text
       order: 1
       showOnGrid: true
