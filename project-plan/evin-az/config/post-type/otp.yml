@@ -1,0 +1,36 @@
+name: adverse-type
+schema:
+  requestId:
+    multilingual: false
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  userId:
+    multilingual: false
+    type: string
+    uiParams:
+      component: false
+      inputType: text
+      order: 1
+      showOnGrid: true
+  code:
+    multilingual: false
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  expiration-date:
+    multilingual: false
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+uiParams:
+  component: post-table
