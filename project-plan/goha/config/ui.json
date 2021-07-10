@@ -1,7 +1,7 @@
 {
   "websiteName": "goha",
   "menu": [
-    {
+
     {"title": "about", "link": "/posts/about", "home": true},
     {"title": "announcement", "link": "/posts/announcement", "home": true},
     {"title": "blogs", "link": "/posts/blogs", "home": true},
@@ -18,6 +18,5 @@
     {"title": "job-classification", "link": "/posts/job-classification", "home": true},
     {"title": "logo", "link": "/posts/logo", "home": true},
     {"title": "news", "link": "/posts/news", "home": true}
-
   ]
 }
