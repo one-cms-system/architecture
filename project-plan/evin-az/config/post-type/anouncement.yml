@@ -6,6 +6,7 @@ schema:
       required: true
       component: enum-select
       showOnGrid: true
+      gridFiltering: true
       group: 'group1'
       enum:
         - PENDING
