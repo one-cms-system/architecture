@@ -45,6 +45,20 @@ schema:
       component: input
       inputType: text
       order: 1
+  phone2:
+    type: string
+    uiParams:
+      required: false
+      component: input
+      inputType: text
+      order: 1
+  phone3:
+    type: string
+    uiParams:
+      required: false
+      component: input
+      inputType: text
+      order: 1
   address:
     type: string
     multilingual: false
@@ -82,6 +96,14 @@ schema:
       component: input
       inputType: text
       order: 1
+  index-image:
+    type: file
+    allowedTypes: [ "jpg", "jpeg", "png" ]
+    uiParams:
+      required: false
+      multiple: true
+      component: file
+      type: image
 uiParams:
   component: single-page
   singular: true
