@@ -30,10 +30,10 @@ schema:
       order: 1
       showOnGrid: false
   remainingPromotionCount:
-    type: string
+    type: number
     uiParams:
       component: input
-      inputType: text
+      inputType: number
       order: 1
       showOnGrid: false
   userPhone1:
@@ -187,10 +187,10 @@ schema:
       showOnGrid: true
   price:
     multilingual: false
-    type: string
+    type: number
     uiParams:
       component: input
-      inputType: text
+      inputType: number
       order: 1
       showOnGrid: false
       group: 'group2'
@@ -206,7 +206,7 @@ schema:
       gridFiltering: true
   area:
     multilingual: false
-    type: string
+    type: number
     uiParams:
       component: input
       inputType: number
@@ -215,64 +215,64 @@ schema:
       showOnGrid: false
   current-floor:
     multilingual: false
-    type: string
+    type: number
     uiParams:
       component: input
-      inputType: text
+      inputType: number
       order: 1
       group: 'group2'
       showOnGrid: false
   total-floors:
     multilingual: false
-    type: string
+    type: number
     uiParams:
       component: input
-      inputType: text
+      inputType: number
       order: 1
       group: 'group2'
       showOnGrid: false
   land-area:
     multilingual: false
-    type: string
+    type: number
     uiParams:
       component: input
-      inputType: text
+      inputType: number
       order: 1
       group: 'group2'
       showOnGrid: false
   bedroom-count:
     multilingual: false
-    type: string
+    type: number
     uiParams:
       component: input
       group: 'group2'
-      inputType: text
+      inputType: number
       order: 1
       showOnGrid: false
   total-room-count:
     multilingual: false
-    type: string
+    type: number
     uiParams:
       component: input
       group: 'group2'
-      inputType: text
+      inputType: number
       order: 1
       showOnGrid: false
   guestroom-count:
     multilingual: false
-    type: string
+    type: number
     uiParams:
       component: input
-      inputType: text
+      inputType: number
       order: 1
       group: 'group2'
       showOnGrid: false
   sanitar-count:
     multilingual: false
-    type: string
+    type: number
     uiParams:
       component: input
-      inputType: text
+      inputType: number
       order: 1
       group: 'group2'
       showOnGrid: false
