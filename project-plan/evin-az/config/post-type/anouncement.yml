@@ -14,6 +14,14 @@ schema:
         - REJECTED
         - EXPIRED
       langName: announcement-status
+  order-date:
+    required: false
+    type: date
+    filtering: RANGE
+    uiParams:
+      component: date-picker
+      order: 1
+      showOnGrid: true
   userFullName:
     type: string
     uiParams:
