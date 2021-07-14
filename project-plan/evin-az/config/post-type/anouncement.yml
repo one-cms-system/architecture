@@ -14,7 +14,7 @@ schema:
         - REJECTED
         - EXPIRED
       langName: announcement-status
-  order-date:
+  orderDate:
     required: false
     type: date
     filtering: RANGE
