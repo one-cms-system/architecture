@@ -30,6 +30,13 @@ schema:
       component: input
       inputType: text
       order: 1
+  iconPath:
+    type: string
+    multilingual: true
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
   photos:
     type: file
     allowedTypes: [ "jpg", "jpeg", "png" ]
