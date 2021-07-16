@@ -32,7 +32,7 @@ schema:
       order: 1
   iconPath:
     type: string
-    multilingual: true
+    multilingual: false
     uiParams:
       component: input
       inputType: text
