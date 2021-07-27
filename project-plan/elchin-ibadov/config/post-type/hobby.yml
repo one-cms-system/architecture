@@ -8,12 +8,12 @@ schema:
       inputType: text
       order: 1
       showOnGrid: true
-  book-type:
+  hobby-type:
     type: reference
     uiParams:
       required: false
       component: reference
-      postType: book-type
+      postType: hobby-type
       referenceTitleField: title
       showOnGrid: true
       gridFiltering: true
