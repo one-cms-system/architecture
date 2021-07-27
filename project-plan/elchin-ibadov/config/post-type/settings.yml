@@ -52,6 +52,13 @@ schema:
       component: input
       inputType: text
       order: 1
+  youtubeUrl:
+    type: string
+    uiParams:
+      required: false
+      component: input
+      inputType: text
+      order: 1
   instagramUrl:
     type: string
     uiParams:
