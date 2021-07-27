@@ -10,3 +10,4 @@ schema:
       showOnGrid: true
 uiParams:
   component: post-table
+  ordering: true

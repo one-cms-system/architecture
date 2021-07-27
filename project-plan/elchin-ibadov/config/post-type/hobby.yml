@@ -19,3 +19,4 @@ schema:
       gridFiltering: true
 uiParams:
   component: post-table
+  ordering: true
