@@ -32,7 +32,7 @@ schema:
       component: editor
       inputType: text
       order: 1
-      showOnGrid: true
+      showOnGrid: false
   publish-date:
     type: date
     filtering: RANGE
