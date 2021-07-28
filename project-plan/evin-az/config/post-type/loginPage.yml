@@ -1,0 +1,73 @@
+name: loginPage
+schema:
+  text1:
+    type: string
+    multilingual: true
+    uiParams:
+      showOnGrid: true
+      required: false
+      component: input
+      inputType: text
+      order: 1
+  text2:
+    type: string
+    multilingual: true
+    uiParams:
+      showOnGrid: true
+      required: false
+      component: input
+      inputType: text
+      order: 1
+  text3:
+    type: string
+    multilingual: false
+    uiParams:
+      showOnGrid: true
+      required: false
+      component: input
+      inputType: text
+      order: 1
+  text4:
+    type: string
+    multilingual: false
+    uiParams:
+      showOnGrid: true
+      required: false
+      component: input
+      inputType: text
+      order: 1
+  image1:
+    type: file
+    allowedTypes: [ "jpg", "jpeg", "png" ]
+    uiParams:
+      required: false
+      multiple: true
+      component: file
+      type: image
+  image2:
+    type: file
+    allowedTypes: [ "jpg", "jpeg", "png" ]
+    uiParams:
+      required: false
+      multiple: true
+      component: file
+      type: image
+  image3:
+    type: file
+    allowedTypes: [ "jpg", "jpeg", "png" ]
+    uiParams:
+      required: false
+      multiple: true
+      component: file
+      type: image
+  image4:
+    type: file
+    allowedTypes: [ "jpg", "jpeg", "png" ]
+    uiParams:
+      required: false
+      multiple: true
+      component: file
+      type: image
+uiParams:
+  component: single-page
+  singular: true
