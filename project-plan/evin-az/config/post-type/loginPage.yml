@@ -69,5 +69,4 @@ schema:
       component: file
       type: image
 uiParams:
-  component: single-page
-  singular: true
+  component: post-table
