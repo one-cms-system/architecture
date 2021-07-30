@@ -5,7 +5,7 @@ schema:
     uiParams:
       required: false
       component: reference
-      postType: useful-information-type
+      postType: articles-type
       referenceTitleField: title
       showOnGrid: true
       gridFiltering: true
