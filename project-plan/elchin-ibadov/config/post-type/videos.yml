@@ -8,6 +8,12 @@ schema:
       inputType: text
       order: 1
       showOnGrid: true
+  publish-date:
+    type: date
+    filtering: RANGE
+    uiParams:
+      component: date-picker
+      order: 1
   youtube-link:
     multilingual: false
     type: string

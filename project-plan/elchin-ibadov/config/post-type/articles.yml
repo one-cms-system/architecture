@@ -1,5 +1,14 @@
-name: success-certificate
+name: articles
 schema:
+  type:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: useful-information-type
+      referenceTitleField: title
+      showOnGrid: true
+      gridFiltering: true
   title:
     multilingual: true
     type: string
@@ -8,6 +17,37 @@ schema:
       inputType: text
       order: 1
       showOnGrid: true
+  sub-title:
+    multilingual: true
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  content:
+    multilingual: true
+    type: string
+    uiParams:
+      component: editor
+      inputType: text
+      order: 1
+      showOnGrid: false
+  publish-date:
+    type: date
+    filtering: RANGE
+    uiParams:
+      component: date-picker
+      order: 1
+  preview-image:
+    type: file
+    allowedTypes: [ "jpg", "jpeg", "png" ]
+    uiParams:
+      component: file
+      required: true
+      multiple: true
+      type: image
+      order: 2
   url:
     multilingual: true
     type: string
@@ -16,37 +56,5 @@ schema:
       autoGenerateFrom: title
       order: 1
       showOnGrid: true
-  redirect-url:
-    multilingual: true
-    type: string
-    uiParams:
-      component: slug
-      autoGenerateFrom: title
-      order: 1
-      showOnGrid: true
-  publish-date:
-    type: date
-    filtering: RANGE
-    uiParams:
-      component: date-picker
-      order: 1
-  image:
-    type: file
-    allowedTypes: [ "jpg", "jpeg", "png" ]
-    uiParams:
-      component: file
-      required: true
-      multiple: false
-      type: image
-      order: 2
-  success-certificate-type:
-    type: reference
-    uiParams:
-      required: false
-      component: reference
-      postType: success-certificate-type
-      referenceTitleField: title
-      showOnGrid: true
-      gridFiltering: true
 uiParams:
   component: post-table
