@@ -1,4 +1,4 @@
-name: news
+name: events
 schema:
   title:
     type: string
