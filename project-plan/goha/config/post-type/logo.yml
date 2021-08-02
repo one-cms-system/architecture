@@ -2,6 +2,7 @@ name: logo
 schema:
   title:
     type: string
+    multilingual: true
     uiParams:
       component: input
       inputType: text
