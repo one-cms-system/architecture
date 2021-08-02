@@ -8,7 +8,7 @@ schema:
       order: 1
       showOnGrid: true
   preview-logo:
-    multilingual: true
+    multilingual: false
     type: file
     allowedTypes: [ "jpg", "jpeg", "png" ]
     uiParams:
@@ -17,7 +17,7 @@ schema:
       component: file
       type: image
   original-logo:
-    multilingual: true
+    multilingual: false
     type: file
     allowedTypes: [ "zip" ]
     uiParams:
@@ -26,7 +26,7 @@ schema:
       component: file
       type: raw
   rules:
-    multilingual: true
+    multilingual: false
     type: file
     allowedTypes: [ "pdf" ]
     uiParams:
