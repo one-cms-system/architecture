@@ -1,4 +1,4 @@
-name: anouncement
+name: announcement
 schema:
   vacancy:
     type: reference
