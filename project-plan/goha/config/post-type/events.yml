@@ -16,6 +16,13 @@ schema:
       component: input
       inputType: text
       order: 2
+  location:
+    multilingual: true
+    type: string
+    uiParams:
+      component: input
+      inputType: text
+      order: 2
   date:
     type: date
     uiParams:
