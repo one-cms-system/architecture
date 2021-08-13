@@ -70,6 +70,7 @@ schema:
       order: 1
   duration:
     type: number
+    multilingual: true
     uiParams:
       component: input
       inputType: number
