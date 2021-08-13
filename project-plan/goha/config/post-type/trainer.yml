@@ -51,6 +51,15 @@ schema:
       component: input
       inputType: text
       order: 1
+  image:
+    type: image
+    allowedTypes: [ "jpg", "jpeg", "png" ]
+    uiParams:
+      component: file
+      required: false
+      multiple: false
+      type: image
+      order: 2
   url:
     multilingual: true
     type: string
