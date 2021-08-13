@@ -1,0 +1,13 @@
+name: news-type
+schema:
+  title:
+    type: string
+    multilingual: true
+    required: true
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+uiParams:
+  component: post-table

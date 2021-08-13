@@ -1,5 +1,23 @@
 name: news
 schema:
+  short-title:
+    type: string
+    multilingual: true
+    required: true
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  short-description:
+    type: string
+    multilingual: true
+    required: true
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
   title:
     type: string
     multilingual: true
