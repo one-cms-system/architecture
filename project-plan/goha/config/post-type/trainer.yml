@@ -1,0 +1,64 @@
+name: about
+schema:
+  fullname:
+    type: string
+    multilingual: true
+    uiParams:
+      showOnGrid: true
+      required: false
+      component: input
+      inputType: text
+      order: 1
+  position:
+    type: string
+    multilingual: true
+    uiParams:
+      showOnGrid: true
+      required: false
+      component: input
+      inputType: text
+      order: 1
+  content:
+    multilingual: true
+    required: false
+    type: string
+    uiParams:
+      component: editor
+      order: 1
+  linkedin:
+    type: string
+    multilingual: false
+    uiParams:
+      showOnGrid: true
+      required: false
+      component: input
+      inputType: text
+      order: 1
+  facebook:
+    type: string
+    multilingual: false
+    uiParams:
+      showOnGrid: true
+      required: false
+      component: input
+      inputType: text
+      order: 1
+  instagram:
+    type: string
+    multilingual: false
+    uiParams:
+      showOnGrid: true
+      required: false
+      component: input
+      inputType: text
+      order: 1
+  url:
+    multilingual: true
+    type: string
+    uiParams:
+      component: slug
+      autoGenerateFrom: fullname
+      order: 1
+      showOnGrid: true
+uiParams:
+  component: post-table
