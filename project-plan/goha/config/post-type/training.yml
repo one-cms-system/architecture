@@ -8,12 +8,49 @@ schema:
       inputType: text
       order: 1
       showOnGrid: true
+  short-title:
+    type: string
+    multilingual: true
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  short-description:
+    type: string
+    multilingual: true
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  language:
+    type: string
+    multilingual: true
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  lesson-count:
+    type: string
+    multilingual: true
+    uiParams:
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
   enabled:
     type: boolean
     uiParams:
       component: checkbox
       order: 2
   showOnIndex:
+    type: boolean
+    uiParams:
+      component: checkbox
+      order: 2
+  have-certificate:
     type: boolean
     uiParams:
       component: checkbox
@@ -26,12 +63,6 @@ schema:
       autoGenerateFrom: title
       order: 2
   activatonTime:
-    type: date
-    filtering: RANGE
-    uiParams:
-      component: date-picker
-      order: 1
-  finishTime:
     type: date
     filtering: RANGE
     uiParams:
@@ -59,6 +90,14 @@ schema:
       order: 1
       showOnGrid: true
   image:
+    type: file
+    allowedTypes: [ "pdf", "doc", "docx", "ppt" ]
+    uiParams:
+      required: false
+      multiple: false
+      component: file
+      type: image
+  preview-image:
     type: file
     allowedTypes: [ "pdf", "doc", "docx", "ppt" ]
     uiParams:
