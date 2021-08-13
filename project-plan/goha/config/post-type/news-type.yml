@@ -9,5 +9,14 @@ schema:
       inputType: text
       order: 1
       showOnGrid: true
+  news-type:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: news-type
+      referenceTitleField: title
+      showOnGrid: true
+      gridFiltering: true
 uiParams:
   component: post-table
