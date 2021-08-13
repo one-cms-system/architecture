@@ -9,5 +9,5 @@ schema:
       component: file
       type: image
 uiParams:
-  component: post-table
+  component: single-page
   singular: true
