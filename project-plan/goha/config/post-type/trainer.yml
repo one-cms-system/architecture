@@ -60,6 +60,11 @@ schema:
       multiple: false
       type: image
       order: 2
+  showOnIndex:
+    type: boolean
+    uiParams:
+      component: checkbox
+      order: 2
   url:
     multilingual: true
     type: string
