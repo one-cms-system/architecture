@@ -1,4 +1,4 @@
-name: about
+name: trainer
 schema:
   fullname:
     type: string
