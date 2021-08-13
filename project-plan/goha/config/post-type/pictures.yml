@@ -10,3 +10,4 @@ schema:
       type: image
 uiParams:
   component: post-table
+  singular: true
