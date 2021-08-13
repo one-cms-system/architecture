@@ -29,7 +29,7 @@ schema:
     type: string
     multilingual: false
     uiParams:
-      showOnGrid: true
+      showOnGrid: false
       required: false
       component: input
       inputType: text
