@@ -34,7 +34,7 @@ schema:
       showOnGrid: true
   lesson-count:
     type: string
-    multilingual: true
+    multilingual: false
     uiParams:
       component: input
       inputType: text
