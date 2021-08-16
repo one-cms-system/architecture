@@ -45,6 +45,16 @@ schema:
     uiParams:
       component: editor
       order: 3
+  deleted:
+    type: boolean
+    uiParams:
+      component: checkbox
+      order: 2
+  hidden:
+    type: boolean
+    uiParams:
+      component: checkbox
+      order: 2
 uiParams:
   component: advertise-layout
   nameField: title
