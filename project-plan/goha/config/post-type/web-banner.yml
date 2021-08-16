@@ -25,11 +25,12 @@ schema:
       order: 1
   image:
     type: file
-    allowedTypes: [ "gif", "jpeg", "jpg", "png" ]
+    allowedTypes: [ "jpg", "jpeg", "png" ]
     uiParams:
       required: false
-      component: image
-      order: 2
+      multiple: true
+      component: file
+      type: image
   link:
     type: string
     uiParams:
