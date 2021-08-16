@@ -9,6 +9,14 @@ schema:
       component: input
       inputType: text
       order: 1
+  index-image:
+    type: file
+    allowedTypes: [ "jpg", "jpeg", "png" ]
+    uiParams:
+      required: false
+      multiple: false
+      component: file
+      type: image
   registerEmail:
     type: string
     multilingual: false
