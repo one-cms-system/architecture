@@ -1,40 +1,31 @@
 name: announcement
 schema:
-  vacancy:
-    type: reference
-    uiParams:
-      required: false
-      component: reference
-      postType: vacancy-anouncement
-      referenceTitleField: title
-      showOnGrid: true
-      gridFiltering: true
   company:
     type: reference
     uiParams:
       required: false
       component: reference
-      postType: company-anouncement
+      postType: company-announcement
       referenceTitleField: title
       showOnGrid: true
       gridFiltering: true
-  category:
-    type: reference
+  title:
+    type: string
+    multilingual: true
     uiParams:
       required: false
-      component: reference
-      postType: category-anouncement
-      referenceTitleField: title
-      gridFiltering: true
-  city:
-    type: reference
-    uiParams:
-      required: false
-      component: reference
-      postType: city-anouncement
-      referenceTitleField: title
+      component: input
+      inputType: text
+      order: 1
       showOnGrid: true
-      gridFiltering: true
+  url:
+    type: string
+    multilingual: true
+    uiParams:
+      component: slug
+      inputType: text
+      autoGenerateFrom: title
+      order: 1
   start-date:
     type: date
     filtering: RANGE
@@ -54,31 +45,6 @@ schema:
     uiParams:
       component: editor
       order: 3
-  new:
-    type: boolean
-    uiParams:
-      component: checkbox
-      order: 2
-  premium:
-    type: boolean
-    uiParams:
-      component: checkbox
-      order: 2
-  pin:
-    type: boolean
-    uiParams:
-      component: checkbox
-      order: 2
-  deleted:
-    type: boolean
-    uiParams:
-      component: checkbox
-      order: 2
-  hidden:
-    type: boolean
-    uiParams:
-      component: checkbox
-      order: 2
 uiParams:
   component: advertise-layout
   nameField: title
