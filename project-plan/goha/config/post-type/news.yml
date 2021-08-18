@@ -1,5 +1,14 @@
 name: news
 schema:
+  company:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: news-type
+      referenceTitleField: title
+      showOnGrid: true
+      gridFiltering: true
   short-title:
     type: string
     multilingual: true
