@@ -17,6 +17,18 @@
     {"title": "header-menu", "link": "/posts/header-menu", "home": true},
     {"title": "job-classification", "link": "/posts/job-classification", "home": true},
     {"title": "logo", "link": "/posts/logo", "home": true},
-    {"title": "news", "link": "/posts/news", "home": true}
+    {"title": "news", "link": "/posts/news", "home": true},
+    {"title": "web-banner", "link": "/posts/web-banner", "home": true},
+    {"title": "trainer", "link": "/posts/trainer", "home": true},
+    {"title": "success-certificate", "link": "/posts/success-certificate-type", "home": true},
+    {"title": "pictures", "link": "/posts/pictures", "home": true},
+    {"title": "service", "link": "/posts/service", "home": true},
+    {"title": "settings", "link": "/posts/settings", "home": true},
+    {"title": "page", "link": "/posts/page", "home": true},
+    {"title": "news", "link": "/posts/news", "home": true},
+    {"title": "news-type", "link": "/posts/news-type", "home": true},
+    {"title": "logo", "link": "/posts/logo", "home": true},
+    {"title": "partners", "link": "/posts/partners", "home": true},
+    {"title": "events", "link": "/posts/events", "home": true}
   ]
 }
