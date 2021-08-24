@@ -56,5 +56,14 @@ schema:
       autoGenerateFrom: title
       order: 1
       showOnGrid: true
+  pdf:
+    type: file
+    allowedTypes: [ "pdf" ]
+    uiParams:
+      component: file
+      required: true
+      multiple: true
+      type: raw
+      order: 2
 uiParams:
   component: post-table
