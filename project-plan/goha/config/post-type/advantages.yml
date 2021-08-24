@@ -1,4 +1,4 @@
-name: service
+name: advantages
 schema:
   servicie:
     type: reference
