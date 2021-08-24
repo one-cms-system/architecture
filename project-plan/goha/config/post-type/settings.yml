@@ -17,6 +17,24 @@ schema:
       multiple: false
       component: file
       type: image
+  sliderTitle:
+    type: string
+    multilingual: false
+    uiParams:
+      showOnGrid: true
+      required: false
+      component: input
+      inputType: text
+      order: 1
+  sliderDescription:
+    type: string
+    multilingual: false
+    uiParams:
+      showOnGrid: true
+      required: false
+      component: input
+      inputType: text
+      order: 1
   registerEmail:
     type: string
     multilingual: false

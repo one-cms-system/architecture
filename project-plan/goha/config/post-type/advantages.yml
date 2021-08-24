@@ -1,0 +1,33 @@
+name: service
+schema:
+  servicie:
+    type: reference
+    uiParams:
+      required: false
+      component: reference
+      postType: service
+      referenceTitleField: title
+      showOnGrid: false
+      gridFiltering: false
+  title:
+    type: string
+    multilingual: true
+    uiParams:
+      required: false
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+  description:
+    type: string
+    multilingual: true
+    uiParams:
+      required: false
+      component: input
+      inputType: text
+      order: 1
+      showOnGrid: true
+uiParams:
+  component: post-table
+  ordering: true
+  nameField: title

@@ -29,6 +29,7 @@
     {"title": "news-type", "link": "/posts/news-type", "home": true},
     {"title": "logo", "link": "/posts/logo", "home": true},
     {"title": "partners", "link": "/posts/partners", "home": true},
-    {"title": "events", "link": "/posts/events", "home": true}
+    {"title": "events", "link": "/posts/events", "home": true},
+    {"title": "translations", "link": "/translations", "home": true}
   ]
 }

@@ -5,7 +5,7 @@ schema:
     required: false
     type: string
     uiParams:
-      component: editor
+      component: input
       order: 1
   content:
     multilingual: true
