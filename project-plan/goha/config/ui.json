@@ -31,6 +31,7 @@
     {"title": "logo", "link": "/posts/logo", "home": true},
     {"title": "partners", "link": "/posts/partners", "home": true},
     {"title": "events", "link": "/posts/events", "home": true},
+    {"title": "terminology", "link": "/posts/terminology", "home": true},
     {"title": "translations", "link": "/translations", "home": true}
   ]
 }
