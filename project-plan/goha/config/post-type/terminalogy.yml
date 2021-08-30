@@ -5,6 +5,7 @@ schema:
     required: false
     type: string
     uiParams:
+      showOnGrid: true
       component: input
       order: 1
   content:

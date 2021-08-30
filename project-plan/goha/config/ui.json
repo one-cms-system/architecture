@@ -5,7 +5,6 @@
     {"title": "about", "link": "/posts/about", "home": true},
     {"title": "announcement", "link": "/posts/announcement", "home": true},
     {"title": "company-owner", "link": "/posts/ahc", "home": true},
-    {"title": "gallery", "link": "/posts/gallery", "home": true},
     {"title": "blogs", "link": "/posts/blogs", "home": true},
     {"title": "company-announcement", "link": "/posts/company-announcement", "home": true},
     {"title": "company-view", "link": "/posts/company-view", "home": true},
@@ -17,7 +16,6 @@
     {"title": "header-menu", "link": "/posts/header-menu", "home": true},
     {"title": "job-classification", "link": "/posts/job-classification", "home": true},
     {"title": "logo", "link": "/posts/logo", "home": true},
-    {"title": "news", "link": "/posts/news", "home": true},
     {"title": "web-banner", "link": "/posts/web-banner", "home": true},
     {"title": "trainer", "link": "/posts/trainer", "home": true},
     {"title": "success-certificate", "link": "/posts/success-certificate-type", "home": true},
@@ -31,7 +29,7 @@
     {"title": "logo", "link": "/posts/logo", "home": true},
     {"title": "partners", "link": "/posts/partners", "home": true},
     {"title": "events", "link": "/posts/events", "home": true},
-    {"title": "terminology", "link": "/posts/terminology", "home": true},
+    {"title": "terminalogy", "link": "/posts/terminalogy", "home": true},
     {"title": "translations", "link": "/translations", "home": true}
   ]
 }
