@@ -15,7 +15,7 @@ schema:
       component: editor
       inputType: text
       order: 1
-      showOnGrid: true
+      showOnGrid: false
   image:
     multilingual: true
     type: file
