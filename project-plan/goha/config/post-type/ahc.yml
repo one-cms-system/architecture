@@ -16,7 +16,7 @@ schema:
       inputType: text
       order: 1
       showOnGrid: true
-  ahc-photo:
+  image:
     multilingual: true
     type: file
     allowedTypes: [ "jpg", "jpeg", "png" ]

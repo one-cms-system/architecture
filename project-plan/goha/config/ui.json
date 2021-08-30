@@ -4,7 +4,7 @@
 
     {"title": "about", "link": "/posts/about", "home": true},
     {"title": "announcement", "link": "/posts/announcement", "home": true},
-    {"title": "compony-owner", "link": "/posts/ahc", "home": true},
+    {"title": "company-owner", "link": "/posts/ahc", "home": true},
     {"title": "gallery", "link": "/posts/gallery", "home": true},
     {"title": "blogs", "link": "/posts/blogs", "home": true},
     {"title": "company-announcement", "link": "/posts/company-announcement", "home": true},
