@@ -19,7 +19,7 @@ schema:
       type: image
   sliderTitle:
     type: string
-    multilingual: false
+    multilingual: true
     uiParams:
       showOnGrid: true
       required: false
@@ -28,7 +28,7 @@ schema:
       order: 1
   sliderDescription:
     type: string
-    multilingual: false
+    multilingual: true
     uiParams:
       showOnGrid: true
       required: false
