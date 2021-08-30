@@ -4,8 +4,8 @@
 
     {"title": "about", "link": "/posts/about", "home": true},
     {"title": "announcement", "link": "/posts/announcement", "home": true},
-    {"title": "ahc", "link": "/posts/ahc", "home": true},
-    {"title": "gallery", "link": "/posts/ahc", "home": true},
+    {"title": "compony-owner", "link": "/posts/ahc", "home": true},
+    {"title": "gallery", "link": "/posts/gallery", "home": true},
     {"title": "blogs", "link": "/posts/blogs", "home": true},
     {"title": "category-announcement", "link": "/posts/category-anouncement", "home": true},
     {"title": "city-announcement", "link": "/posts/city-anouncement", "home": true},
