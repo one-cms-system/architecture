@@ -1,0 +1,22 @@
+name: settings
+schema:
+  title:
+    type: string
+    multilingual: true
+    uiParams:
+      showOnGrid: true
+      required: false
+      component: input
+      inputType: text
+      order: 1
+  description:
+    type: string
+    multilingual: true
+    uiParams:
+      showOnGrid: true
+      required: false
+      component: input
+      inputType: text
+      order: 1
+uiParams:
+  component: post-table
