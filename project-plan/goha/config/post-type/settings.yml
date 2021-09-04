@@ -35,7 +35,7 @@ schema:
       component: input
       inputType: text
       order: 1
-  registerEmail:
+  registerEmailx:
     type: string
     multilingual: false
     uiParams:
