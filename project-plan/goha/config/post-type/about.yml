@@ -9,6 +9,15 @@ schema:
       component: input
       inputType: text
       order: 1
+  innerTitle:
+    type: string
+    multilingual: true
+    uiParams:
+      showOnGrid: true
+      required: false
+      component: input
+      inputType: text
+      order: 1
   content:
     multilingual: true
     required: false

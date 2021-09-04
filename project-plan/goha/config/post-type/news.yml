@@ -26,7 +26,7 @@ schema:
       component: input
       inputType: text
       order: 1
-      showOnGrid: true
+      showOnGrid: false
   title:
     type: string
     multilingual: true
@@ -35,7 +35,7 @@ schema:
       component: input
       inputType: text
       order: 1
-      showOnGrid: true
+      showOnGrid: false
   description:
     multilingual: true
     type: string
@@ -48,7 +48,7 @@ schema:
     uiParams:
       component: date-picker
       order: 2
-      showOnGrid: true
+      showOnGrid: false
   content:
     multilingual: true
     type: string
