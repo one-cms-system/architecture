@@ -1,4 +1,4 @@
-name: settings
+name: slider
 schema:
   title:
     type: string
