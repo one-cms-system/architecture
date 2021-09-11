@@ -26,7 +26,7 @@ schema:
       component: input
       inputType: text
       order: 1
-      showOnGrid: true
+      showOnGrid: false
 uiParams:
   component: post-table
   ordering: true
