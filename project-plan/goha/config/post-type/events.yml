@@ -9,6 +9,11 @@ schema:
       inputType: text
       order: 1
       showOnGrid: true
+  showOnIndexPage:
+    type: boolean
+    uiParams:
+      required: false
+      component: checkbox
   description:
     multilingual: true
     type: string
