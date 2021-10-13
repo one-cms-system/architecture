@@ -1,6 +1,8 @@
 {
   "websiteName": "elchin-ibadov",
   "menu": [
+    {"title": "articles", "link": "/posts/articles", "home": true},
+    {"title": "articles-type", "link": "/posts/articles-type", "home": true},
     {"title": "user", "link": "/posts/user", "home": true},
     {"title": "translations", "link": "/translations", "home": true},
     {"title": "about", "link": "/posts/about", "home": true},
@@ -15,8 +17,10 @@
     {"title": "useful-information-type", "link": "/posts/useful-information-type", "home": true},
     {"title": "videos", "link": "/posts/videos", "home": true},
     {"title": "index-settings", "link": "/posts/index-settings", "home": true},
+    {"title": "settings", "link": "/posts/settings", "home": true},
     {"title": "success-certificate-type", "link": "/posts/success-certificate-type", "home": true},
     {"title": "success-certificate", "link": "/posts/success-certificate", "home": true},
-    {"title": "hobby", "link": "/posts/hobby", "home": true}
+    {"title": "hobby", "link": "/posts/hobby", "home": true},
+    {"title": "hobby-type", "link": "/posts/hobby-type", "home": true}
   ]
 }
