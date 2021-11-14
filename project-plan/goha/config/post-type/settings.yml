@@ -74,6 +74,13 @@ schema:
       component: input
       inputType: text
       order: 1
+  whatsappUrl:
+    type: string
+    uiParams:
+      required: false
+      component: input
+      inputType: text
+      order: 1
   youtubeUrl:
     type: string
     uiParams:
