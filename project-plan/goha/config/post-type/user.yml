@@ -1,6 +1,6 @@
 name: user
 schema:
-  username:
+  email:
     type: string
     uiParams:
       required: true
